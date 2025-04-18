@@ -20,6 +20,7 @@ import (
 	"bytes"
 	"fmt"
 	"strings"
+	"sync"
 
 	jsonv2 "github.com/go-json-experiment/json"
 	"github.com/go-json-experiment/json/jsontext"
@@ -87,9 +88,17 @@ func FromJSON(input []byte) (Value, error) {
 	return FromJSONFast(input)
 }
 
+var decoderPool = sync.Pool{
+	New: func() any {
+		return &jsontext.Decoder{}
+	},
+}
+
 // FromJSONFast is a helper function for reading a JSON document.
 func FromJSONFast(input []byte) (Value, error) {
-	d := jsontext.NewDecoder(bytes.NewBuffer(input))
+	d := decoderPool.Get().(*jsontext.Decoder)
+	defer decoderPool.Put(d)
+	d.Reset(bytes.NewBuffer(input))
 	var v any
 	err := jsonv2.UnmarshalDecode(d, &v)
 	if err != nil {
