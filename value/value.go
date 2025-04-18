@@ -89,8 +89,9 @@ func FromJSON(input []byte) (Value, error) {
 
 // FromJSONFast is a helper function for reading a JSON document.
 func FromJSONFast(input []byte) (Value, error) {
+	d := jsontext.NewDecoder(bytes.NewBuffer(input))
 	var v any
-	err := jsonv2.UnmarshalDecode(jsontext.NewDecoder(bytes.NewReader(input)), &v)
+	err := jsonv2.UnmarshalDecode(d, &v)
 	if err != nil {
 		return nil, err
 	}
