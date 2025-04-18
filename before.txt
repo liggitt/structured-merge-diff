@@ -1,0 +1,1612 @@
+goos: darwin
+goarch: arm64
+pkg: sigs.k8s.io/structured-merge-diff/v6/fieldpath
+cpu: Apple M1 Pro
+BenchmarkFieldSet/insert-20-10         	  232239	      5382 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  222943	      5396 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  202225	      5405 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  225388	      5521 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  177430	      5921 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  217719	      5378 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  224389	      5356 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  225388	      5370 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  222091	      6659 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  192559	      6329 ns/op	    4811 B/op	      78 allocs/op
+BenchmarkFieldSet/has-20-10            	 4365267	       254.4 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5219391	       235.6 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 4295305	       254.1 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5173819	       227.5 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5451140	       223.1 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5491357	       221.3 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5369608	       222.0 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 4993944	       218.1 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5517920	       216.7 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5536370	       218.4 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  319678	      3724 ns/op	    1613 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  319843	      3712 ns/op	    1612 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  323570	      3731 ns/op	    1613 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  323538	      3783 ns/op	    1613 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  320666	      3709 ns/op	    1611 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  314223	      3717 ns/op	    1612 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  321458	      3726 ns/op	    1612 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  321836	      3720 ns/op	    1612 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  318536	      3728 ns/op	    1614 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  323589	      3724 ns/op	    1612 B/op	       8 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  115352	     10553 ns/op	   10039 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  113305	     10538 ns/op	   10039 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  112610	     10516 ns/op	   10039 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  112839	     10565 ns/op	   10040 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  114105	     10545 ns/op	   10040 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  114621	     10522 ns/op	   10040 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  114674	     10533 ns/op	   10039 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  115708	     10840 ns/op	   10043 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  113450	     10490 ns/op	   10038 B/op	     233 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  113738	     10519 ns/op	   10041 B/op	     233 allocs/op
+BenchmarkFieldSet/union-20-10          	  329158	      3614 ns/op	    4286 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  325383	      3697 ns/op	    4288 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  327483	      3671 ns/op	    4286 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  329383	      3656 ns/op	    4289 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  323613	      3648 ns/op	    4288 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  346533	      3537 ns/op	    4287 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  333512	      3668 ns/op	    4289 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  326574	      3680 ns/op	    4287 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  321705	      3694 ns/op	    4288 B/op	      53 allocs/op
+BenchmarkFieldSet/union-20-10          	  331219	      3637 ns/op	    4288 B/op	      53 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  673818	      1754 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  689263	      1764 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  668704	      1764 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  679593	      1751 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  681676	      1770 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  658540	      1756 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  683491	      1755 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  664209	      1749 ns/op	     967 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  693025	      1762 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  673105	      1762 ns/op	     968 B/op	      29 allocs/op
+BenchmarkFieldSet/difference-20-10     	  431260	      2865 ns/op	    2658 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  431084	      2818 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  431568	      2816 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  424950	      2814 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  424029	      2791 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  448623	      2783 ns/op	    2658 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  414831	      2821 ns/op	    2658 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  427796	      2808 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  429931	      2814 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  435675	      2799 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  428571	      2846 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  414644	      2835 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  418980	      2840 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  422625	      2846 ns/op	    2658 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  424304	      2809 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  421327	      2835 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  414964	      2826 ns/op	    2660 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  422499	      2830 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  430172	      2807 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  421776	      2833 ns/op	    2659 B/op	      42 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  651450	      1823 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  666336	      1826 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  690517	      1824 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  653860	      1826 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  670538	      1821 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  672442	      1827 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  665520	      1813 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  686812	      1815 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  656786	      1825 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  670831	      1798 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   68254	     17142 ns/op	   16255 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   69733	     17039 ns/op	   16258 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   70728	     17230 ns/op	   16264 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   69985	     16922 ns/op	   16258 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   69540	     17331 ns/op	   16257 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   68924	     17295 ns/op	   16261 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   68659	     17295 ns/op	   16255 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   69271	     17284 ns/op	   16254 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   69028	     17559 ns/op	   16257 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   69381	     17251 ns/op	   16259 B/op	     246 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4344621	       272.2 ns/op	     160 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4339401	       274.7 ns/op	     159 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4372276	       275.4 ns/op	     159 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4368156	       273.4 ns/op	     159 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4399027	       278.0 ns/op	     160 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 3772560	       274.9 ns/op	     159 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4291416	       284.3 ns/op	     159 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4348039	       276.3 ns/op	     160 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4363674	       276.0 ns/op	     160 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4374158	       274.5 ns/op	     159 B/op	       2 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  119173	      9910 ns/op	    4597 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  121165	     10068 ns/op	    4598 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  119832	     10089 ns/op	    4597 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  119781	     10046 ns/op	    4597 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  120558	     10055 ns/op	    4598 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  118832	     10033 ns/op	    4599 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  119947	     10044 ns/op	    4597 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  120034	     10031 ns/op	    4597 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  118236	     10005 ns/op	    4596 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  119211	     10037 ns/op	    4598 B/op	      14 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   45793	     25774 ns/op	   20354 B/op	     656 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   46201	     25915 ns/op	   20350 B/op	     656 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   44589	     25807 ns/op	   20348 B/op	     655 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   45794	     26402 ns/op	   20348 B/op	     656 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   44568	     26614 ns/op	   20340 B/op	     655 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   46076	     26661 ns/op	   20355 B/op	     656 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   45022	     26259 ns/op	   20354 B/op	     656 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   45567	     26195 ns/op	   20341 B/op	     655 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   45567	     26014 ns/op	   20352 B/op	     655 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   45709	     26073 ns/op	   20330 B/op	     655 allocs/op
+BenchmarkFieldSet/union-50-10                        	  120236	      9961 ns/op	   10265 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  119206	      9898 ns/op	   10265 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  119574	      9645 ns/op	   10263 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  119104	      9933 ns/op	   10263 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  118898	      9841 ns/op	   10267 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  121711	      9916 ns/op	   10266 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  119305	      9852 ns/op	   10266 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  123565	      9914 ns/op	   10265 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  119870	      9954 ns/op	   10266 B/op	     133 allocs/op
+BenchmarkFieldSet/union-50-10                        	  118928	     10011 ns/op	   10267 B/op	     133 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  291301	      4050 ns/op	    2048 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  297835	      4016 ns/op	    2047 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  293769	      3999 ns/op	    2048 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  304128	      4023 ns/op	    2049 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  296940	      4003 ns/op	    2048 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  301759	      3964 ns/op	    2047 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  292725	      4031 ns/op	    2048 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  292102	      4024 ns/op	    2048 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  282651	      3876 ns/op	    2048 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  295802	      4017 ns/op	    2047 B/op	      61 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  162825	      7259 ns/op	    6445 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  167923	      7294 ns/op	    6444 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  138872	      7419 ns/op	    6445 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  163237	      7268 ns/op	    6442 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  177649	      7372 ns/op	    6445 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  166320	      7294 ns/op	    6442 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  171766	      6956 ns/op	    6445 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  164743	      7259 ns/op	    6446 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  165217	      7221 ns/op	    6447 B/op	     100 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  173172	      7289 ns/op	    6444 B/op	     100 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  148981	      7968 ns/op	    6478 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  148239	      8003 ns/op	    6481 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  148431	      8074 ns/op	    6479 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  147013	      8038 ns/op	    6481 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  148792	      8033 ns/op	    6482 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  161844	      8061 ns/op	    6480 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  136506	      8037 ns/op	    6476 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  147752	      7782 ns/op	    6484 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  148262	      7949 ns/op	    6477 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  149713	      8061 ns/op	    6478 B/op	     102 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  182388	      6585 ns/op	    6905 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  180964	      6576 ns/op	    6904 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  182332	      6580 ns/op	    6906 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  189604	      6550 ns/op	    6905 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  182582	      6523 ns/op	    6907 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  184934	      6619 ns/op	    6905 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  183127	      6642 ns/op	    6905 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  180459	      6611 ns/op	    6907 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  183046	      6656 ns/op	    6906 B/op	     149 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  180148	      6683 ns/op	    6907 B/op	     149 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   24763	     47424 ns/op	   60346 B/op	     813 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   25585	     46835 ns/op	   60355 B/op	     814 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   26173	     46703 ns/op	   60358 B/op	     814 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   25270	     46799 ns/op	   60340 B/op	     813 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   25803	     46913 ns/op	   60341 B/op	     813 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   25533	     47584 ns/op	   60358 B/op	     814 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   25282	     47327 ns/op	   60338 B/op	     813 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   25665	     47627 ns/op	   60357 B/op	     814 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   25119	     47512 ns/op	   60344 B/op	     813 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   24398	     47942 ns/op	   60363 B/op	     814 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2798344	       488.2 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2733264	       417.9 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2838073	       435.2 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2909618	       414.1 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2857365	       423.4 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2883806	       413.6 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2896356	       418.4 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2894526	       407.8 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2933409	       412.1 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2921456	       420.2 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36363	     32875 ns/op	   16070 B/op	      40 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36721	     32643 ns/op	   16046 B/op	      39 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36338	     32578 ns/op	   16072 B/op	      39 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36676	     32629 ns/op	   16061 B/op	      40 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36638	     32759 ns/op	   16055 B/op	      40 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36608	     32745 ns/op	   16054 B/op	      39 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36218	     32806 ns/op	   16050 B/op	      40 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36572	     32696 ns/op	   16054 B/op	      39 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36822	     32590 ns/op	   16058 B/op	      40 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   36655	     36916 ns/op	   16070 B/op	      39 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   15409	     75507 ns/op	   60597 B/op	    2303 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   15969	     74755 ns/op	   60594 B/op	    2302 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   15992	     74948 ns/op	   60548 B/op	    2301 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   16074	     73905 ns/op	   60565 B/op	    2301 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   15979	     75437 ns/op	   60609 B/op	    2304 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   15966	     74156 ns/op	   60579 B/op	    2302 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   16076	     76710 ns/op	   60601 B/op	    2303 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   16166	     75955 ns/op	   60609 B/op	    2304 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   15962	     73600 ns/op	   60598 B/op	    2303 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   16366	     75572 ns/op	   60591 B/op	    2302 allocs/op
+BenchmarkFieldSet/union-100-10                       	   60352	     19602 ns/op	   25922 B/op	     258 allocs/op
+BenchmarkFieldSet/union-100-10                       	   61540	     20964 ns/op	   25921 B/op	     257 allocs/op
+BenchmarkFieldSet/union-100-10                       	   59440	     20390 ns/op	   25929 B/op	     258 allocs/op
+BenchmarkFieldSet/union-100-10                       	   62116	     19872 ns/op	   25927 B/op	     258 allocs/op
+BenchmarkFieldSet/union-100-10                       	   58857	     19759 ns/op	   25919 B/op	     257 allocs/op
+BenchmarkFieldSet/union-100-10                       	   61132	     19379 ns/op	   25916 B/op	     257 allocs/op
+BenchmarkFieldSet/union-100-10                       	   60837	     19701 ns/op	   25924 B/op	     258 allocs/op
+BenchmarkFieldSet/union-100-10                       	   60462	     19545 ns/op	   25920 B/op	     257 allocs/op
+BenchmarkFieldSet/union-100-10                       	   62354	     19813 ns/op	   25930 B/op	     258 allocs/op
+BenchmarkFieldSet/union-100-10                       	   60666	     19545 ns/op	   25923 B/op	     257 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  136569	      8495 ns/op	    4020 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  137622	      8657 ns/op	    4024 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  141091	      8500 ns/op	    4030 B/op	     125 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  139248	      8659 ns/op	    4024 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  133807	      8507 ns/op	    4022 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  142490	      8406 ns/op	    4024 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  136522	      8521 ns/op	    4023 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  140370	      8527 ns/op	    4030 B/op	     125 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  138100	      8474 ns/op	    4021 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  138622	      8508 ns/op	    4023 B/op	     124 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   74956	     15919 ns/op	   15781 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75133	     15843 ns/op	   15777 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75105	     15815 ns/op	   15783 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   74271	     15865 ns/op	   15781 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75424	     15876 ns/op	   15784 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75144	     15820 ns/op	   15771 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75544	     15630 ns/op	   15781 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75464	     15935 ns/op	   15784 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   74088	     15516 ns/op	   15786 B/op	     215 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75244	     15825 ns/op	   15782 B/op	     215 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72475	     16460 ns/op	   16038 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72441	     16421 ns/op	   16044 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72543	     16537 ns/op	   16040 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   71272	     16477 ns/op	   16041 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   71636	     16522 ns/op	   16041 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72201	     16354 ns/op	   16044 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   71900	     16281 ns/op	   16039 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72812	     16185 ns/op	   16041 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   75234	     16198 ns/op	   16042 B/op	     217 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72122	     16399 ns/op	   16043 B/op	     217 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   53078	     22943 ns/op	   27582 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   53968	     23161 ns/op	   27588 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   53002	     22652 ns/op	   27599 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   53211	     22986 ns/op	   27592 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   51142	     23251 ns/op	   27589 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   53061	     22672 ns/op	   27588 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   52710	     22851 ns/op	   27591 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   53215	     22739 ns/op	   27590 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   52861	     22563 ns/op	   27586 B/op	     635 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   52801	     22597 ns/op	   27582 B/op	     635 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4956	    262083 ns/op	  314474 B/op	    4140 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4820	    267239 ns/op	  314293 B/op	    4138 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4870	    258650 ns/op	  314528 B/op	    4140 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4874	    259488 ns/op	  314493 B/op	    4140 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4962	    265191 ns/op	  314404 B/op	    4139 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4945	    259580 ns/op	  314493 B/op	    4140 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4796	    259342 ns/op	  314516 B/op	    4140 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4944	    267162 ns/op	  314360 B/op	    4139 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4970	    273652 ns/op	  314417 B/op	    4139 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4756	    256176 ns/op	  314482 B/op	    4140 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1975953	       617.1 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 2006769	       605.4 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1874892	       645.2 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1869265	       632.0 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1973072	       599.7 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1998014	       646.6 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1951620	       632.1 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1957096	       605.3 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1990663	       597.2 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1722219	       677.9 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7100	    165081 ns/op	   74374 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7100	    172407 ns/op	   74565 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7269	    161642 ns/op	   74767 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7344	    166432 ns/op	   74440 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7491	    163196 ns/op	   74631 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7256	    161732 ns/op	   74447 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7362	    163197 ns/op	   74688 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7123	    172458 ns/op	   74772 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7080	    169021 ns/op	   74570 B/op	     183 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7104	    165455 ns/op	   74207 B/op	     184 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3330	    368741 ns/op	  277099 B/op	   11498 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3334	    380359 ns/op	  277006 B/op	   11495 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3298	    363636 ns/op	  276882 B/op	   11490 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3283	    384210 ns/op	  276944 B/op	   11494 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3303	    364194 ns/op	  277042 B/op	   11495 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3297	    374361 ns/op	  276938 B/op	   11492 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3218	    361179 ns/op	  277145 B/op	   11501 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3366	    370414 ns/op	  276908 B/op	   11492 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3230	    360413 ns/op	  276999 B/op	   11496 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3330	    359862 ns/op	  277049 B/op	   11496 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    100997 ns/op	  119800 B/op	    1465 allocs/op
+BenchmarkFieldSet/union-500-10                       	   12141	    100740 ns/op	  119780 B/op	    1463 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    101450 ns/op	  119726 B/op	    1464 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    100920 ns/op	  119829 B/op	    1466 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    101255 ns/op	  119800 B/op	    1465 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    105701 ns/op	  119732 B/op	    1463 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    101678 ns/op	  119746 B/op	    1465 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    110172 ns/op	  119759 B/op	    1463 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    102551 ns/op	  119828 B/op	    1466 allocs/op
+BenchmarkFieldSet/union-500-10                       	   10000	    101196 ns/op	  119790 B/op	    1465 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23317	     50251 ns/op	   23939 B/op	     740 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23094	     50199 ns/op	   23917 B/op	     740 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23421	     49811 ns/op	   23845 B/op	     738 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23342	     52630 ns/op	   23883 B/op	     739 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23139	     50556 ns/op	   23887 B/op	     739 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   22651	     51685 ns/op	   23916 B/op	     740 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   24411	     49744 ns/op	   23889 B/op	     739 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23689	     49887 ns/op	   23815 B/op	     737 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23570	     49855 ns/op	   23846 B/op	     738 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   23647	     49451 ns/op	   23816 B/op	     738 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14521	     82443 ns/op	   71667 B/op	    1160 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14445	     82669 ns/op	   71644 B/op	    1160 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14359	     86429 ns/op	   71630 B/op	    1159 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   13748	     89054 ns/op	   71670 B/op	    1160 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14210	     84619 ns/op	   71686 B/op	    1161 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14742	     84354 ns/op	   71685 B/op	    1161 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14563	     80930 ns/op	   71656 B/op	    1160 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14824	     82907 ns/op	   71632 B/op	    1158 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14907	     81534 ns/op	   71657 B/op	    1160 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   14554	     80374 ns/op	   71636 B/op	    1159 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13819	     86216 ns/op	   72984 B/op	    1182 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13845	     88331 ns/op	   72985 B/op	    1182 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13671	     87266 ns/op	   72977 B/op	    1182 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13780	     86025 ns/op	   73002 B/op	    1183 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13184	     85678 ns/op	   72995 B/op	    1182 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13690	     84921 ns/op	   72990 B/op	    1181 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13645	     85003 ns/op	   72997 B/op	    1183 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13920	     86986 ns/op	   72986 B/op	    1183 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13995	     86698 ns/op	   72980 B/op	    1182 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13936	     86539 ns/op	   72992 B/op	    1183 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	   10000	    125828 ns/op	  138862 B/op	    3226 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	   10000	    131966 ns/op	  138945 B/op	    3228 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	    9542	    126604 ns/op	  138918 B/op	    3228 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	    9902	    130887 ns/op	  138863 B/op	    3226 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	    9620	    128768 ns/op	  138935 B/op	    3228 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	   10000	    128662 ns/op	  138910 B/op	    3227 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	    9387	    135987 ns/op	  138802 B/op	    3225 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	    9590	    128446 ns/op	  138890 B/op	    3227 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	   10000	    123944 ns/op	  138879 B/op	    3227 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	    9928	    124590 ns/op	  138885 B/op	    3227 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2216	    580123 ns/op	  692215 B/op	    8982 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2200	    575573 ns/op	  691697 B/op	    8976 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2209	    607863 ns/op	  691703 B/op	    8977 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2218	    574180 ns/op	  691535 B/op	    8973 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2226	    573421 ns/op	  691950 B/op	    8979 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2223	    576169 ns/op	  691657 B/op	    8974 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2216	    574270 ns/op	  692006 B/op	    8979 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2217	    576410 ns/op	  691730 B/op	    8976 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2221	    581938 ns/op	  691340 B/op	    8971 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2216	    570159 ns/op	  691784 B/op	    8977 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1659238	       720.8 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1657375	       712.6 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1630075	       710.2 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1586246	       711.1 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1665771	       718.5 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1647990	       724.5 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1660110	       709.8 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1645376	       731.8 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1668223	       710.9 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1664803	       703.5 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3421	    352913 ns/op	  156317 B/op	     394 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3420	    353658 ns/op	  158387 B/op	     394 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3352	    352478 ns/op	  157256 B/op	     393 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3410	    361040 ns/op	  156472 B/op	     394 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3331	    354642 ns/op	  157634 B/op	     393 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3427	    351934 ns/op	  157821 B/op	     393 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3463	    353980 ns/op	  157687 B/op	     394 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3374	    356631 ns/op	  158187 B/op	     393 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3481	    353872 ns/op	  158033 B/op	     393 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3498	    357208 ns/op	  157454 B/op	     393 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1509	    780708 ns/op	  607303 B/op	   24987 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1533	    795191 ns/op	  607020 B/op	   24981 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1459	    787853 ns/op	  607578 B/op	   24999 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1539	    799085 ns/op	  607292 B/op	   24987 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1513	    797304 ns/op	  607332 B/op	   24990 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1500	    805838 ns/op	  607442 B/op	   24997 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1477	    788074 ns/op	  607177 B/op	   24990 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1530	    801067 ns/op	  607572 B/op	   24999 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1508	    789961 ns/op	  607335 B/op	   24990 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1504	    788725 ns/op	  607473 B/op	   24997 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6292	    200246 ns/op	  236048 B/op	    2858 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6040	    198526 ns/op	  236072 B/op	    2857 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6176	    198752 ns/op	  235851 B/op	    2849 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6463	    199047 ns/op	  236060 B/op	    2858 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6568	    200021 ns/op	  236035 B/op	    2857 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6670	    204636 ns/op	  235964 B/op	    2855 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6411	    200333 ns/op	  236027 B/op	    2858 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6476	    198800 ns/op	  235987 B/op	    2855 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6292	    199019 ns/op	  235887 B/op	    2850 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    5997	    204346 ns/op	  235864 B/op	    2852 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   10000	    103626 ns/op	   43271 B/op	    1331 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12220	     97491 ns/op	   43421 B/op	    1335 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12116	     96790 ns/op	   43328 B/op	    1333 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12266	     97265 ns/op	   43415 B/op	    1335 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12192	     98400 ns/op	   43282 B/op	    1332 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12093	     97952 ns/op	   43127 B/op	    1328 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12135	     96414 ns/op	   43222 B/op	    1330 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12326	     96779 ns/op	   43142 B/op	    1328 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12276	     97777 ns/op	   43353 B/op	    1333 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12254	     97299 ns/op	   43285 B/op	    1332 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7129	    168708 ns/op	  149827 B/op	    2239 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7278	    164913 ns/op	  149722 B/op	    2238 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7147	    165184 ns/op	  149739 B/op	    2238 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7147	    164941 ns/op	  149804 B/op	    2238 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7262	    165209 ns/op	  149687 B/op	    2234 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7291	    164894 ns/op	  149659 B/op	    2236 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7455	    166382 ns/op	  149741 B/op	    2238 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    6100	    167825 ns/op	  149701 B/op	    2235 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7353	    164464 ns/op	  149803 B/op	    2239 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7376	    164840 ns/op	  149808 B/op	    2241 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6592	    179826 ns/op	  152869 B/op	    2289 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6738	    180154 ns/op	  152824 B/op	    2286 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6531	    178767 ns/op	  152868 B/op	    2291 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6396	    178773 ns/op	  152874 B/op	    2287 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6470	    179660 ns/op	  152776 B/op	    2285 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6463	    178315 ns/op	  152818 B/op	    2284 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6663	    179555 ns/op	  152787 B/op	    2285 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6626	    177093 ns/op	  152826 B/op	    2289 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6807	    179577 ns/op	  152856 B/op	    2287 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6730	    179053 ns/op	  152905 B/op	    2288 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4318	    280666 ns/op	  307421 B/op	    7219 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4258	    276640 ns/op	  307392 B/op	    7218 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4309	    297480 ns/op	  307483 B/op	    7220 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4342	    285385 ns/op	  307590 B/op	    7223 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4287	    277439 ns/op	  307477 B/op	    7220 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4297	    293782 ns/op	  307468 B/op	    7220 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4195	    283070 ns/op	  307416 B/op	    7219 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4306	    286338 ns/op	  307462 B/op	    7220 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4502	    290669 ns/op	  307432 B/op	    7219 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4522	    286283 ns/op	  307547 B/op	    7222 allocs/op
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/fieldpath	658.925s
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/internal/cli	1.522s
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/internal/fixture	0.228s
+goos: darwin
+goarch: arm64
+pkg: sigs.k8s.io/structured-merge-diff/v6/merge
+cpu: Apple M1 Pro
+BenchmarkDeducedSimple-10                             	   32521	     36814 ns/op	   28618 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32388	     37817 ns/op	   28622 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32259	     37065 ns/op	   28616 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32319	     36642 ns/op	   28614 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32721	     37364 ns/op	   28617 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32414	     37239 ns/op	   28619 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32822	     36793 ns/op	   28615 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32868	     36894 ns/op	   28616 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32487	     37040 ns/op	   28618 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32253	     37123 ns/op	   28619 B/op	     673 allocs/op
+BenchmarkDeducedNested-10                             	   14978	     80732 ns/op	   56942 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14817	     80478 ns/op	   56948 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14942	     79686 ns/op	   56950 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14002	     79016 ns/op	   56939 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14744	     80090 ns/op	   56939 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   15001	     79951 ns/op	   56941 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14890	     80198 ns/op	   56953 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14965	     79964 ns/op	   56940 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14960	     80283 ns/op	   56947 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14931	     80419 ns/op	   56939 B/op	    1282 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    108341 ns/op	   74981 B/op	    1708 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    109074 ns/op	   75012 B/op	    1709 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    108235 ns/op	   75006 B/op	    1709 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    109322 ns/op	   75032 B/op	    1709 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    108913 ns/op	   75032 B/op	    1709 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    109067 ns/op	   75019 B/op	    1709 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    109421 ns/op	   75051 B/op	    1709 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    108948 ns/op	   75016 B/op	    1709 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    109374 ns/op	   75051 B/op	    1710 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    108964 ns/op	   75008 B/op	    1709 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23586	     50531 ns/op	   40076 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23834	     50592 ns/op	   40075 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23938	     50472 ns/op	   40077 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23709	     49853 ns/op	   40074 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23841	     50743 ns/op	   40082 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23865	     50173 ns/op	   40075 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   24067	     50295 ns/op	   40078 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23908	     50240 ns/op	   40070 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23781	     50529 ns/op	   40072 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23760	     50550 ns/op	   40075 B/op	     877 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1609	    742353 ns/op	  717948 B/op	    7380 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1606	    742362 ns/op	  717044 B/op	    7369 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1598	    745192 ns/op	  717634 B/op	    7377 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1552	    739999 ns/op	  717770 B/op	    7377 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1612	    748082 ns/op	  717793 B/op	    7378 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1593	    749421 ns/op	  718039 B/op	    7382 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1605	    746370 ns/op	  717622 B/op	    7376 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1605	    742510 ns/op	  717577 B/op	    7376 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1593	    750468 ns/op	  717786 B/op	    7378 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1600	    749343 ns/op	  717874 B/op	    7379 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24358	     50026 ns/op	   20198 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24069	     49316 ns/op	   20198 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24093	     49422 ns/op	   20196 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24306	     48801 ns/op	   20198 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24314	     49455 ns/op	   20198 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24205	     49147 ns/op	   20197 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24390	     49387 ns/op	   20198 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24562	     49155 ns/op	   20197 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24322	     49628 ns/op	   20197 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24685	     49094 ns/op	   20195 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    9488	    131962 ns/op	   55096 B/op	    1301 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    8971	    131215 ns/op	   55104 B/op	    1302 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    9140	    132128 ns/op	   55109 B/op	    1302 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    8935	    131427 ns/op	   55094 B/op	    1301 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    9434	    132653 ns/op	   55110 B/op	    1302 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    9015	    131500 ns/op	   55099 B/op	    1301 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    8929	    131946 ns/op	   55112 B/op	    1302 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    8836	    132308 ns/op	   55095 B/op	    1301 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    8830	    132665 ns/op	   55107 B/op	    1302 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    9415	    132568 ns/op	   55102 B/op	    1302 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3631	    326356 ns/op	  113972 B/op	    2769 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3645	    326819 ns/op	  113928 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3644	    325374 ns/op	  113919 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3594	    325969 ns/op	  113882 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3664	    325109 ns/op	  113863 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3646	    323970 ns/op	  113940 B/op	    2769 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3676	    326985 ns/op	  113952 B/op	    2769 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3603	    326374 ns/op	  113899 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3658	    324566 ns/op	  113911 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3709	    325571 ns/op	  113918 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3920	    307049 ns/op	  110046 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    4002	    307531 ns/op	  110062 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3860	    315466 ns/op	  110065 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3938	    307660 ns/op	  110024 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3932	    308858 ns/op	  110033 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3816	    307424 ns/op	  110037 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3872	    304806 ns/op	  110045 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3844	    306043 ns/op	  110064 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3918	    304779 ns/op	  110056 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3868	    308604 ns/op	  110093 B/op	    2665 allocs/op
+BenchmarkOperations/Pod/Update-10                     	    9786	    119728 ns/op	   38003 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	    9866	    119488 ns/op	   37998 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	   10000	    118557 ns/op	   37992 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	   10000	    118871 ns/op	   38001 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	   10000	    118403 ns/op	   37989 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	    9669	    118896 ns/op	   37989 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	    9958	    124524 ns/op	   37996 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	   10000	    119040 ns/op	   37990 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	    9933	    118781 ns/op	   37990 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	   10000	    118889 ns/op	   37993 B/op	     928 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7171	    169238 ns/op	   49811 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7165	    170302 ns/op	   49806 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7060	    171060 ns/op	   49810 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7089	    168816 ns/op	   49804 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7084	    170329 ns/op	   49796 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    6907	    168944 ns/op	   49803 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7082	    170090 ns/op	   49802 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7238	    169607 ns/op	   49807 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    6903	    170586 ns/op	   49813 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7011	    170817 ns/op	   49809 B/op	    1329 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15916	     74749 ns/op	   29204 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15987	     75174 ns/op	   29206 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15909	     77137 ns/op	   29205 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15139	     75364 ns/op	   29204 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15955	     75404 ns/op	   29203 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15952	     75313 ns/op	   29205 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15984	     75155 ns/op	   29203 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   16040	     75740 ns/op	   29206 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15889	     75189 ns/op	   29204 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   16023	     75341 ns/op	   29203 B/op	     556 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5944	    201743 ns/op	   77283 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5871	    200625 ns/op	   77293 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5940	    201926 ns/op	   77299 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5942	    200536 ns/op	   77302 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5948	    201130 ns/op	   77284 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    6063	    201259 ns/op	   77291 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    6162	    202208 ns/op	   77300 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5947	    201946 ns/op	   77292 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5958	    201127 ns/op	   77302 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5931	    202034 ns/op	   77298 B/op	    1623 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2350	    497938 ns/op	  161064 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2372	    501962 ns/op	  161090 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2364	    500305 ns/op	  161072 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2389	    502222 ns/op	  161091 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2359	    503653 ns/op	  161082 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2337	    502742 ns/op	  161095 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2377	    504695 ns/op	  161098 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2355	    504273 ns/op	  161122 B/op	    3634 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2350	    503621 ns/op	  161092 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2362	    510549 ns/op	  161121 B/op	    3634 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2566	    464552 ns/op	  154755 B/op	    3445 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2596	    466607 ns/op	  154758 B/op	    3446 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2578	    466254 ns/op	  154769 B/op	    3446 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2546	    482002 ns/op	  154718 B/op	    3445 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2582	    485017 ns/op	  154746 B/op	    3445 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2448	    461752 ns/op	  154748 B/op	    3445 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2517	    471121 ns/op	  154754 B/op	    3446 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2583	    469288 ns/op	  154767 B/op	    3446 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2529	    470564 ns/op	  154774 B/op	    3446 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2564	    472589 ns/op	  154769 B/op	    3446 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6364	    187079 ns/op	   55575 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6490	    186669 ns/op	   55576 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6480	    186497 ns/op	   55575 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6392	    186275 ns/op	   55575 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6585	    184190 ns/op	   55567 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6506	    185849 ns/op	   55578 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6739	    186565 ns/op	   55575 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6686	    184951 ns/op	   55573 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6495	    190877 ns/op	   55564 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6639	    188989 ns/op	   55567 B/op	    1252 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4444	    269644 ns/op	   73347 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4360	    271133 ns/op	   73345 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4441	    268573 ns/op	   73347 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4326	    268698 ns/op	   73347 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4395	    269566 ns/op	   73351 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4548	    272761 ns/op	   73359 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4360	    271445 ns/op	   73346 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4395	    272362 ns/op	   73347 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4357	    274756 ns/op	   73352 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4322	    271253 ns/op	   73347 B/op	    1855 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  257695	      4521 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  264151	      4496 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  261752	      4532 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  266337	      4539 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  263614	      4465 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  274711	      4438 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  270238	      4430 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  275512	      4633 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  273448	      4404 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  276800	      4373 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  112962	     10607 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  113990	     10893 ns/op	    6604 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  108915	     11038 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  109368	     11035 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  108283	     11068 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  107793	     11071 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  108748	     11132 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  109026	     11022 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  108342	     11026 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  109090	     11042 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     973	   1223437 ns/op	  206900 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     936	   1230915 ns/op	  206892 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     968	   1236522 ns/op	  206869 B/op	    4356 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     956	   1235417 ns/op	  206901 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     968	   1235310 ns/op	  206890 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     969	   1232071 ns/op	  206899 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     969	   1226278 ns/op	  206938 B/op	    4358 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     970	   1225989 ns/op	  206902 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     969	   1226791 ns/op	  206893 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     964	   1224968 ns/op	  206891 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1896	    626481 ns/op	  108933 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1864	    627283 ns/op	  108938 B/op	    2303 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1884	    622851 ns/op	  108928 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1885	    626760 ns/op	  108933 B/op	    2303 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1886	    622966 ns/op	  108930 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1886	    625149 ns/op	  108937 B/op	    2303 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1882	    622290 ns/op	  108928 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1869	    622470 ns/op	  108928 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1892	    624376 ns/op	  108935 B/op	    2303 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1874	    623831 ns/op	  108931 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1917	    604760 ns/op	  102004 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1959	    603728 ns/op	  102003 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1966	    603594 ns/op	  102001 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1959	    605300 ns/op	  102003 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1932	    623092 ns/op	  102005 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1778	    657235 ns/op	  102001 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1914	    610763 ns/op	  102002 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1933	    606062 ns/op	  102004 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1956	    612008 ns/op	  102002 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1934	    605108 ns/op	  102005 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     987	   1216514 ns/op	  199371 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     973	   1232811 ns/op	  199360 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     975	   1318720 ns/op	  199366 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     956	   1298796 ns/op	  199367 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     910	   1237290 ns/op	  199368 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     937	   1209459 ns/op	  199369 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     988	   1202947 ns/op	  199364 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     992	   1204459 ns/op	  199365 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     972	   1321371 ns/op	  199361 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     984	   1219139 ns/op	  199364 B/op	    4185 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16141	     74287 ns/op	   29203 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16090	     75540 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16294	     73823 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16363	     74030 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   15708	     73261 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16261	     73942 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16250	     74843 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16240	     74014 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16220	     73637 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16278	     75547 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6334	    200204 ns/op	   77267 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6114	    196887 ns/op	   77257 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6188	    199389 ns/op	   77255 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    5950	    197915 ns/op	   77261 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    5988	    199550 ns/op	   77252 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6140	    200025 ns/op	   77264 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6103	    199674 ns/op	   77259 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6002	    200545 ns/op	   77262 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6169	    205149 ns/op	   77270 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    6006	    200664 ns/op	   77265 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2377	    497775 ns/op	  161041 B/op	    3633 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2414	    500139 ns/op	  161044 B/op	    3633 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2385	    498091 ns/op	  161018 B/op	    3632 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2419	    514463 ns/op	  161051 B/op	    3633 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2408	    498699 ns/op	  160999 B/op	    3632 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2373	    495523 ns/op	  161071 B/op	    3633 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2396	    499068 ns/op	  161055 B/op	    3633 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2394	    502253 ns/op	  161045 B/op	    3633 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2396	    494846 ns/op	  160994 B/op	    3632 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2496	    499568 ns/op	  161059 B/op	    3633 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2516	    467546 ns/op	  154695 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2560	    470302 ns/op	  154699 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2541	    470967 ns/op	  154709 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2539	    471162 ns/op	  154719 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2630	    462859 ns/op	  154700 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2616	    463666 ns/op	  154725 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2620	    463488 ns/op	  154684 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2606	    458291 ns/op	  154665 B/op	    3444 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2577	    474040 ns/op	  154687 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2600	    461598 ns/op	  154700 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6417	    181984 ns/op	   55562 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6559	    183803 ns/op	   55567 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6549	    183690 ns/op	   55566 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6638	    188801 ns/op	   55565 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6514	    183978 ns/op	   55566 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6626	    186442 ns/op	   55568 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6592	    184541 ns/op	   55563 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6457	    184943 ns/op	   55573 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6499	    185444 ns/op	   55568 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6526	    183233 ns/op	   55561 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4450	    269820 ns/op	   73334 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4503	    274468 ns/op	   73342 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4327	    272835 ns/op	   73335 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4197	    277332 ns/op	   73348 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4534	    272972 ns/op	   73335 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4491	    271585 ns/op	   73338 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4348	    269456 ns/op	   73332 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4496	    269415 ns/op	   73336 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4432	    270004 ns/op	   73335 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4348	    268858 ns/op	   73338 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16136	     76110 ns/op	   29202 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16221	     74561 ns/op	   29202 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16056	     74631 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16087	     74614 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   15976	     75169 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16018	     75043 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16107	     74159 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16070	     74589 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   15979	     74320 ns/op	   29201 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   16035	     75207 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    6008	    200912 ns/op	   77257 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    6112	    199922 ns/op	   77276 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    5961	    199405 ns/op	   77269 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    6036	    201144 ns/op	   77278 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    5872	    200937 ns/op	   77274 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    6225	    200429 ns/op	   77265 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    6168	    200070 ns/op	   77260 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    6020	    203395 ns/op	   77262 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    5899	    200549 ns/op	   77274 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    6340	    201541 ns/op	   77253 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2389	    497336 ns/op	  161066 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2407	    499486 ns/op	  161042 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2394	    496557 ns/op	  161022 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2420	    502184 ns/op	  161056 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2409	    499724 ns/op	  161052 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2362	    502829 ns/op	  161036 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2407	    501911 ns/op	  161076 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2374	    503616 ns/op	  161020 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2406	    500278 ns/op	  161015 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2394	    498737 ns/op	  161028 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2534	    469615 ns/op	  154722 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2550	    467691 ns/op	  154701 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2551	    464982 ns/op	  154735 B/op	    3446 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2605	    469469 ns/op	  154691 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2509	    477200 ns/op	  154701 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2527	    465356 ns/op	  154691 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2593	    467984 ns/op	  154708 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2601	    469424 ns/op	  154720 B/op	    3446 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2526	    468777 ns/op	  154720 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2541	    468602 ns/op	  154683 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6327	    185144 ns/op	   55567 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6524	    183273 ns/op	   55568 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6480	    183361 ns/op	   55558 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6596	    184258 ns/op	   55568 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6738	    187911 ns/op	   55564 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6415	    184070 ns/op	   55562 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6610	    182659 ns/op	   55566 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6504	    183317 ns/op	   55572 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6643	    183926 ns/op	   55562 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6553	    184637 ns/op	   55564 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4483	    267907 ns/op	   73339 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4448	    272121 ns/op	   73337 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4436	    267632 ns/op	   73336 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4473	    267675 ns/op	   73338 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4458	    267028 ns/op	   73339 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4504	    267663 ns/op	   73334 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4447	    266964 ns/op	   73335 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4392	    267738 ns/op	   73345 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4370	    268919 ns/op	   73339 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4473	    266879 ns/op	   73339 B/op	    1855 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  265932	      4405 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  269929	      4423 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  267997	      4559 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  273165	      4425 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  276248	      4424 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  269530	      4420 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  272989	      4435 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  269972	      4419 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  269196	      4435 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  277386	      4544 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  107900	     10995 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  109106	     10991 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  107851	     10902 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  111343	     10897 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  109951	     10915 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  110870	     11140 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  107749	     11260 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  110556	     10920 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  109080	     10924 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  111410	     10840 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     962	   1258949 ns/op	  206917 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     931	   1249011 ns/op	  206905 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     955	   1249316 ns/op	  206915 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     955	   1243902 ns/op	  206904 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     957	   1240506 ns/op	  206910 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     961	   1242136 ns/op	  206900 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     960	   1242373 ns/op	  206940 B/op	    4358 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     933	   1266375 ns/op	  206898 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     927	   1302307 ns/op	  206903 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     966	   1259865 ns/op	  206925 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1785	    650227 ns/op	  108926 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1820	    648738 ns/op	  108922 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1785	    649499 ns/op	  108916 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1786	    630782 ns/op	  108913 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1880	    627675 ns/op	  108926 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1861	    641287 ns/op	  108925 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1880	    625112 ns/op	  108932 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1884	    626139 ns/op	  108923 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1855	    625525 ns/op	  108936 B/op	    2303 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1868	    636188 ns/op	  108920 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1855	    609574 ns/op	  102005 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1924	    618486 ns/op	  102000 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1932	    621273 ns/op	  102004 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1903	    622021 ns/op	  102002 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1909	    617797 ns/op	  102002 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1892	    631035 ns/op	  102001 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1929	    622992 ns/op	  102007 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1896	    633778 ns/op	  102003 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1862	    640177 ns/op	  101999 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1898	    639520 ns/op	  101998 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     933	   1247704 ns/op	  199357 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     954	   1240857 ns/op	  199359 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     955	   1248710 ns/op	  199361 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     938	   1234270 ns/op	  199367 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     943	   1257262 ns/op	  199365 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     956	   1232872 ns/op	  199353 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     939	   1229746 ns/op	  199363 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     966	   1222723 ns/op	  199356 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     974	   1222398 ns/op	  199361 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     969	   1225136 ns/op	  199368 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  270394	      4452 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  265699	      4528 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  270591	      4603 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  270626	      4573 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  261404	      4495 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  267218	      4439 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  270229	      4485 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  260248	      4488 ns/op	    3003 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  266371	      4467 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  269233	      4468 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110947	     10853 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110510	     10905 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110722	     11188 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  111452	     10867 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110384	     10878 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  111382	     10882 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110905	     10914 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110934	     10921 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110023	     10866 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110131	     10865 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     945	   1249376 ns/op	  206916 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     931	   1283761 ns/op	  206922 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     957	   1234958 ns/op	  206909 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     958	   1234719 ns/op	  206928 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     968	   1236486 ns/op	  206931 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     966	   1229017 ns/op	  206898 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     968	   1229087 ns/op	  206925 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     970	   1228444 ns/op	  206895 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     964	   1235186 ns/op	  206913 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     958	   1257712 ns/op	  206892 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1852	    642031 ns/op	  108925 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1851	    643599 ns/op	  108917 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1840	    641038 ns/op	  108904 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1866	    657983 ns/op	  108916 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1832	    639382 ns/op	  108909 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1840	    636623 ns/op	  108919 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1855	    640190 ns/op	  108910 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1840	    639292 ns/op	  108923 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1850	    641596 ns/op	  108909 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1846	    638687 ns/op	  108913 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1867	    645523 ns/op	  102005 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1857	    627232 ns/op	  102004 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1891	    620039 ns/op	  102003 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1911	    619008 ns/op	  102000 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1912	    617233 ns/op	  102000 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1906	    618690 ns/op	  102003 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1918	    623324 ns/op	  102003 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1932	    622941 ns/op	  101998 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1908	    635348 ns/op	  102001 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1905	    622873 ns/op	  102002 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     962	   1233227 ns/op	  199363 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     968	   1254560 ns/op	  199364 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     956	   1222028 ns/op	  199350 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     968	   1229769 ns/op	  199359 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     968	   1227123 ns/op	  199362 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     964	   1233720 ns/op	  199359 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     963	   1226091 ns/op	  199358 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     914	   1225575 ns/op	  199361 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     961	   1228062 ns/op	  199355 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     958	   1224342 ns/op	  199360 B/op	    4185 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2946	    403394 ns/op	  165139 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2970	    403354 ns/op	  165137 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2940	    415665 ns/op	  165126 B/op	    3660 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2857	    411934 ns/op	  165143 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    3085	    407528 ns/op	  165152 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2884	    416091 ns/op	  165149 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2875	    414619 ns/op	  165148 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2893	    414824 ns/op	  165136 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2882	    417521 ns/op	  165149 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2920	    414655 ns/op	  165139 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1128	   1054005 ns/op	  474201 B/op	   10191 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1140	   1051552 ns/op	  474376 B/op	   10193 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1132	   1048563 ns/op	  474295 B/op	   10192 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1131	   1057322 ns/op	  474285 B/op	   10192 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1150	   1043653 ns/op	  474227 B/op	   10191 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1150	   1038732 ns/op	  474375 B/op	   10193 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1142	   1047540 ns/op	  474323 B/op	   10192 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1146	   1042764 ns/op	  474294 B/op	   10192 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1168	   1048644 ns/op	  474306 B/op	   10192 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	SIGQUIT: quit
+PC=0x19b4333cc m=0 sigcode=0
+
+goroutine 0 gp=0x103474020 m=0 mp=0x1034748c0 [idle]:
+runtime.pthread_cond_wait(0x103474e18, 0x103474dd8)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/sys_darwin.go:547 +0x20 fp=0x16cffa220 sp=0x16cffa1f0 pc=0x102e646c0
+runtime.semasleep(0xffffffffffffffff)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/os_darwin.go:72 +0x84 fp=0x16cffa280 sp=0x16cffa220 pc=0x102e3ec74
+runtime.notesleep(0x103474a00)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/lock_sema.go:62 +0xb8 fp=0x16cffa2c0 sp=0x16cffa280 pc=0x102e18828
+runtime.mPark(...)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:1887
+runtime.stopm()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:2907 +0x84 fp=0x16cffa2f0 sp=0x16cffa2c0 pc=0x102e49934
+runtime.findRunnable()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:3644 +0x1040 fp=0x16cffa460 sp=0x16cffa2f0 pc=0x102e4b770
+runtime.schedule()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:4017 +0x94 fp=0x16cffa4a0 sp=0x16cffa460 pc=0x102e4cbf4
+runtime.park_m(0x14000082c40)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:4141 +0x2b0 fp=0x16cffa500 sp=0x16cffa4a0 pc=0x102e4d0f0
+runtime.mcall()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:193 +0x54 fp=0x16cffa510 sp=0x16cffa500 pc=0x102e7f504
+
+goroutine 1 gp=0x140000021c0 m=nil [chan receive, 9 minutes]:
+runtime.gopark(0x14000a85858?, 0x102e1db64?, 0x68?, 0x58?, 0x12a369e38?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000a85820 sp=0x14000a85800 pc=0x102e7a078
+runtime.chanrecv(0x140003e6070, 0x0, 0x1)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/chan.go:664 +0x42c fp=0x14000a858a0 sp=0x14000a85820 pc=0x102e1387c
+runtime.chanrecv1(0x14000a858f8?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/chan.go:506 +0x14 fp=0x14000a858d0 sp=0x14000a858a0 pc=0x102e13414
+testing.(*B).run1(0x14000296008)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:226 +0xa0 fp=0x14000a859d0 sp=0x14000a858d0 pc=0x102f18680
+testing.(*B).Run(0x140003ab408, {0x10310b4cb?, 0x14000a85b08?}, 0x103225bf0)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:780 +0x3f0 fp=0x14000a85ad0 sp=0x14000a859d0 pc=0x102f1ab40
+testing.runBenchmarks.func1(0x140003ab408)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:641 +0x40 fp=0x14000a85b10 sp=0x14000a85ad0 pc=0x102f19f70
+testing.(*B).runN(0x140003ab408, 0x1)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:202 +0x198 fp=0x14000a85b80 sp=0x14000a85b10 pc=0x102f18478
+testing.runBenchmarks({0x103117142, 0x2a}, 0x0?, {0x10346e080, 0x6, 0x7?})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:650 +0x51c fp=0x14000a85c90 sp=0x14000a85b80 pc=0x102f19edc
+testing.(*M).Run(0x14000101ae0)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/testing.go:2158 +0x86c fp=0x14000a85ec0 sp=0x14000a85c90 pc=0x102f2651c
+main.main()
+	_testmain.go:119 +0x90 fp=0x14000a85f40 sp=0x14000a85ec0 pc=0x1030fc0d0
+runtime.main()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:283 +0x284 fp=0x14000a85fd0 sp=0x14000a85f40 pc=0x102e44824
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000a85fd0 sp=0x14000a85fd0 pc=0x102e81914
+
+goroutine 17 gp=0x14000082380 m=nil [force gc (idle), 10 minutes]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000050790 sp=0x14000050770 pc=0x102e7a078
+runtime.goparkunlock(...)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:441
+runtime.forcegchelper()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:348 +0xb8 fp=0x140000507d0 sp=0x14000050790 pc=0x102e44b78
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x140000507d0 sp=0x140000507d0 pc=0x102e81914
+created by runtime.init.7 in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:336 +0x24
+
+goroutine 18 gp=0x14000082540 m=nil [GC sweep wait]:
+runtime.gopark(0x103473801?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000050f60 sp=0x14000050f40 pc=0x102e7a078
+runtime.goparkunlock(...)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:441
+runtime.bgsweep(0x14000090000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgcsweep.go:316 +0x108 fp=0x14000050fb0 sp=0x14000050f60 pc=0x102e2ddc8
+runtime.gcenable.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:204 +0x28 fp=0x14000050fd0 sp=0x14000050fb0 pc=0x102e21c58
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000050fd0 sp=0x14000050fd0 pc=0x102e81914
+created by runtime.gcenable in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:204 +0x6c
+
+goroutine 19 gp=0x14000082700 m=nil [sleep]:
+runtime.gopark(0x14000094060?, 0x24896e8745305?, 0x0?, 0x0?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000051720 sp=0x14000051700 pc=0x102e7a078
+runtime.goparkunlock(...)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:441
+runtime.(*scavengerState).sleep(0x103473e00, 0x409ca80000000000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgcscavenge.go:504 +0x108 fp=0x14000051790 sp=0x14000051720 pc=0x102e2ba48
+runtime.bgscavenge(0x14000090000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgcscavenge.go:662 +0x9c fp=0x140000517b0 sp=0x14000051790 pc=0x102e2bdfc
+runtime.gcenable.gowrap2()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:205 +0x28 fp=0x140000517d0 sp=0x140000517b0 pc=0x102e21bf8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x140000517d0 sp=0x140000517d0 pc=0x102e81914
+created by runtime.gcenable in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:205 +0xac
+
+goroutine 2 gp=0x14000002e00 m=nil [finalizer wait, 10 minutes]:
+runtime.gopark(0x140000545b8?, 0x102e7ad04?, 0x1?, 0x45?, 0x102eb18a4?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000054590 sp=0x14000054570 pc=0x102e7a078
+runtime.runfinq()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mfinal.go:196 +0x108 fp=0x140000547d0 sp=0x14000054590 pc=0x102e20c58
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x140000547d0 sp=0x140000547d0 pc=0x102e81914
+created by runtime.createfing in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mfinal.go:166 +0x80
+
+goroutine 33 gp=0x14000496000 m=nil [GC worker (idle)]:
+runtime.gopark(0x248968326d3c2?, 0x3?, 0xc9?, 0x1d?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000597f10 sp=0x14000597ef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x14000597fb0 sp=0x14000597f10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x14000597fd0 sp=0x14000597fb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000597fd0 sp=0x14000597fd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 34 gp=0x140004961c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x248968326d492?, 0x3?, 0x3b?, 0x4?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x1400059bf10 sp=0x1400059bef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x1400059bfb0 sp=0x1400059bf10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x1400059bfd0 sp=0x1400059bfb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x1400059bfd0 sp=0x1400059bfd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 20 gp=0x140000828c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x248968326c44c?, 0x3?, 0xb2?, 0x70?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x1400007ff10 sp=0x1400007fef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x1400007ffb0 sp=0x1400007ff10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x1400007ffd0 sp=0x1400007ffb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x1400007ffd0 sp=0x1400007ffd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 3 gp=0x140000036c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x248968326cb22?, 0x1?, 0x3b?, 0x81?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x1400007df10 sp=0x1400007def0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x1400007dfb0 sp=0x1400007df10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x1400007dfd0 sp=0x1400007dfb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x1400007dfd0 sp=0x1400007dfd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 35 gp=0x14000496380 m=nil [GC worker (idle)]:
+runtime.gopark(0x248968326c80a?, 0x3?, 0x3e?, 0x3d?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000078f10 sp=0x14000078ef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x14000078fb0 sp=0x14000078f10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x14000078fd0 sp=0x14000078fb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000078fd0 sp=0x14000078fd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 21 gp=0x14000082a80 m=nil [GC worker (idle)]:
+runtime.gopark(0x248968327dd38?, 0x1?, 0x25?, 0x5c?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000596f10 sp=0x14000596ef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x14000596fb0 sp=0x14000596f10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x14000596fd0 sp=0x14000596fb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000596fd0 sp=0x14000596fd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 4 gp=0x14000003880 m=nil [GC worker (idle)]:
+runtime.gopark(0x248968326d0fe?, 0x1?, 0xfb?, 0x6f?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x1400059cf10 sp=0x1400059cef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x1400059cfb0 sp=0x1400059cf10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x1400059cfd0 sp=0x1400059cfb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x1400059cfd0 sp=0x1400059cfd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 36 gp=0x14000496540 m=nil [GC worker (idle)]:
+runtime.gopark(0x2489682b75641?, 0x3?, 0x8c?, 0x35?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x1400059af10 sp=0x1400059aef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x1400059afb0 sp=0x1400059af10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x1400059afd0 sp=0x1400059afb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x1400059afd0 sp=0x1400059afd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 22 gp=0x14000082c40 m=nil [GC worker (idle)]:
+runtime.gopark(0x2489683286714?, 0x3?, 0xfa?, 0xdc?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000079f10 sp=0x14000079ef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x14000079fb0 sp=0x14000079f10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x14000079fd0 sp=0x14000079fb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000079fd0 sp=0x14000079fd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 5 gp=0x14000003a40 m=nil [GC worker (idle)]:
+runtime.gopark(0x248967cb9d1da?, 0x3?, 0x68?, 0x2e?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x1400007af10 sp=0x1400007aef0 pc=0x102e7a078
+runtime.gcBgMarkWorker(0x14000494000)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1423 +0xdc fp=0x1400007afb0 sp=0x1400007af10 pc=0x102e240ec
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x28 fp=0x1400007afd0 sp=0x1400007afb0 pc=0x102e23fd8
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x1400007afd0 sp=0x1400007afd0 pc=0x102e81914
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/mgc.go:1339 +0x140
+
+goroutine 4980 gp=0x140003be8c0 m=nil [chan receive]:
+runtime.gopark(0x14000a87828?, 0x102f1a268?, 0x58?, 0x77?, 0x12a36d538?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000a87720 sp=0x14000a87700 pc=0x102e7a078
+runtime.chanrecv(0x14000076540, 0x0, 0x1)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/chan.go:664 +0x42c fp=0x14000a877a0 sp=0x14000a87720 pc=0x102e1387c
+runtime.chanrecv1(0x14000058001?, 0x103216c60?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/chan.go:506 +0x14 fp=0x14000a877d0 sp=0x14000a877a0 pc=0x102e13414
+testing.(*B).doBench(0x14000296288)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:276 +0x78 fp=0x14000a87830 sp=0x14000a877d0 pc=0x102f18d98
+testing.(*benchState).processBench(0x1400024fc68, 0x103216c60?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:680 +0x2c8 fp=0x14000a879d0 sp=0x14000a87830 pc=0x102f1a278
+testing.(*B).run(0x140003aa288?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:267 +0x64 fp=0x14000a87a00 sp=0x14000a879d0 pc=0x102f18b94
+testing.(*B).Run(0x14000421188, {0x103106da1?, 0x2e66e?}, 0x140003593b0)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:781 +0x3fc fp=0x14000a87b00 sp=0x14000a87a00 pc=0x102f1ab4c
+sigs.k8s.io/structured-merge-diff/v6/merge_test.BenchmarkOperations.func1(0x14000421188)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/merge/real_test.go:198 +0x610 fp=0x14000a87f20 sp=0x14000a87b00 pc=0x1030f5680
+testing.(*B).runN(0x14000421188, 0x1)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:202 +0x198 fp=0x14000a87f90 sp=0x14000a87f20 pc=0x102f18478
+testing.(*B).run1.func1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:224 +0x4c fp=0x14000a87fd0 sp=0x14000a87f90 pc=0x102f18a9c
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000a87fd0 sp=0x14000a87fd0 pc=0x102e81914
+created by testing.(*B).run1 in goroutine 3200
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:217 +0x90
+
+goroutine 3200 gp=0x14000439c00 m=nil [chan receive]:
+runtime.gopark(0x14000a897a8?, 0x102e1db64?, 0xb8?, 0x97?, 0x1035caf98?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/proc.go:435 +0xc8 fp=0x14000a89770 sp=0x14000a89750 pc=0x102e7a078
+runtime.chanrecv(0x140003e61c0, 0x0, 0x1)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/chan.go:664 +0x42c fp=0x14000a897f0 sp=0x14000a89770 pc=0x102e1387c
+runtime.chanrecv1(0x14000a89848?, 0x0?)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/chan.go:506 +0x14 fp=0x14000a89820 sp=0x14000a897f0 pc=0x102e13414
+testing.(*B).run1(0x14000421188)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:226 +0xa0 fp=0x14000a89920 sp=0x14000a89820 pc=0x102f18680
+testing.(*B).Run(0x14000296008, {0x1031093a7?, 0x11?}, 0x14000238100)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:780 +0x3f0 fp=0x14000a89a20 sp=0x14000a89920 pc=0x102f1ab40
+sigs.k8s.io/structured-merge-diff/v6/merge_test.BenchmarkOperations(0x14000296008)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/merge/real_test.go:108 +0x534 fp=0x14000a89f20 sp=0x14000a89a20 pc=0x1030f4fa4
+testing.(*B).runN(0x14000296008, 0x1)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:202 +0x198 fp=0x14000a89f90 sp=0x14000a89f20 pc=0x102f18478
+testing.(*B).run1.func1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:224 +0x4c fp=0x14000a89fd0 sp=0x14000a89f90 pc=0x102f18a9c
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x14000a89fd0 sp=0x14000a89fd0 pc=0x102e81914
+created by testing.(*B).run1 in goroutine 1
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:217 +0x90
+
+goroutine 4204 gp=0x1400015ac40 m=nil [runnable]:
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip.func1({0x140002eda93?, 0xb?}, {0x103230290?, 0x140000d0b80?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x170 fp=0x14000646740 sp=0x14000646740 pc=0x10305ec00
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.IterateUsing(0x14000f02840, {0x10322f850, 0x140006d1740}, 0x14000300450)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:145 +0x148 fp=0x14000646810 sp=0x14000646740 pc=0x103062528
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip({0x10322f850, 0x140006d1740}, {0x10322fe40, 0x14000f02840}, {0x0, 0x0}, 0x140003d15c0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x140 fp=0x14000646840 sp=0x14000646810 pc=0x10305e8d0
+sigs.k8s.io/structured-merge-diff/v6/value.defaultMapZip({0x10322f850?, 0x140006d1740?}, {0x10322fe40?, 0x14000f02840?}, {0x0?, 0x0?}, 0x14000646801?, 0x102e1b50c?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:105 +0x58 fp=0x14000646890 sp=0x14000646840 pc=0x10305e738
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.ZipUsing(0x140006468f8?, {0x10322f850?, 0x140006d1740?}, {0x0?, 0x0?}, 0x1031fd340?, 0x10322f801?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:185 +0x50 fp=0x140006468e0 sp=0x14000646890 pc=0x103062ab0
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing({0x10322f850, 0x140006d1740}, {0x0, 0x0}, {0x10322fe40, 0x14000f02840}, 0x0, 0x14000300420)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:93 +0xbc fp=0x14000646930 sp=0x140006468e0 pc=0x10305e5dc
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems(0x14000433830, 0x140002af200, {0x0, 0x0}, {0x10322fe40, 0x14000f02840})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:436 +0xdc fp=0x14000646990 sp=0x14000646930 pc=0x1030854ac
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).doMap(0x14000433830, 0x140002af200)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:467 +0x274 fp=0x14000646a90 sp=0x14000646990 pc=0x1030858d4
+sigs.k8s.io/structured-merge-diff/v6/typed.handleAtom({0x0?, 0x0?, 0x140002af200?}, {0x140002c25f0, {0x0, 0x0, 0x0}, 0x0}, {0x10322bae8?, 0x14000433830?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/helpers.go:145 +0x14c fp=0x14000646af0 sp=0x14000646a90 pc=0x10308661c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).compare(0x14000433830, 0x14000646d70)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:125 +0x138 fp=0x14000646c30 sp=0x14000646af0 pc=0x103082a08
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItem(0x140004337a0, 0x140002af400, 0x14000646dd8?, {0x140002eda90, 0x3}, {0x0, 0x0}, {0x103230290, 0x140000d0b30})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:428 +0x37c fp=0x14000646da0 sp=0x14000646c30 pc=0x10308523c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems.func1({0x140002eda90?, 0x1030625e8?}, {0x0?, 0x0?}, {0x103230290?, 0x140000d0b30?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:437 +0x68 fp=0x14000646e20 sp=0x14000646da0 pc=0x103085558
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing.func1({0x140002eda90?, 0x102e1bc1c?}, {0x103230290?, 0x140000d0b30?}, {0x0?, 0x0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:94 +0x50 fp=0x14000646e60 sp=0x14000646e20 pc=0x10305e6b0
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip.func1({0x140002eda90?, 0x102e77a98?}, {0x103230290?, 0x140000d0b30?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:127 +0x11c fp=0x14000646ef0 sp=0x14000646e60 pc=0x10305ebac
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.IterateUsing(0x14000f020f0, {0x10322f850, 0x140006d1740}, 0x140008dbb30)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:145 +0x148 fp=0x14000646fc0 sp=0x14000646ef0 pc=0x103062528
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip({0x10322f850, 0x140006d1740}, {0x10322fe40, 0x14000f020f0}, {0x0, 0x0}, 0x140003d1290)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x140 fp=0x14000646ff0 sp=0x14000646fc0 pc=0x10305e8d0
+sigs.k8s.io/structured-merge-diff/v6/value.defaultMapZip({0x10322f850?, 0x140006d1740?}, {0x10322fe40?, 0x14000f020f0?}, {0x0?, 0x0?}, 0x14000647001?, 0x102e1b50c?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:105 +0x58 fp=0x14000647040 sp=0x14000646ff0 pc=0x10305e738
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.ZipUsing(0x140006470a8?, {0x10322f850?, 0x140006d1740?}, {0x0?, 0x0?}, 0x1031fd340?, 0x10322f801?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:185 +0x50 fp=0x14000647090 sp=0x14000647040 pc=0x103062ab0
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing({0x10322f850, 0x140006d1740}, {0x0, 0x0}, {0x10322fe40, 0x14000f020f0}, 0x0, 0x140008dbb00)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:93 +0xbc fp=0x140006470e0 sp=0x14000647090 pc=0x10305e5dc
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems(0x140004337a0, 0x140002af400, {0x0, 0x0}, {0x10322fe40, 0x14000f020f0})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:436 +0xdc fp=0x14000647140 sp=0x140006470e0 pc=0x1030854ac
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).doMap(0x140004337a0, 0x140002af400)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:467 +0x274 fp=0x14000647240 sp=0x14000647140 pc=0x1030858d4
+sigs.k8s.io/structured-merge-diff/v6/typed.handleAtom({0x0?, 0x0?, 0x140002af400?}, {0x0, {0x0, 0x0, 0x140002af400}, 0x0}, {0x10322bae8?, 0x140004337a0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/helpers.go:145 +0x14c fp=0x140006472a0 sp=0x14000647240 pc=0x10308661c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).compare(0x140004337a0, 0x14000647520)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:125 +0x138 fp=0x140006473e0 sp=0x140006472a0 pc=0x103082a08
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItem(0x14000433710, 0x140002af200, 0x0?, {0x1400000fa90, 0xa}, {0x0, 0x0}, {0x103230290, 0x140000d0aa0})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:428 +0x37c fp=0x14000647550 sp=0x140006473e0 pc=0x10308523c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems.func1({0x1400000fa90?, 0x1030625e8?}, {0x0?, 0x0?}, {0x103230290?, 0x140000d0aa0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:437 +0x68 fp=0x140006475d0 sp=0x14000647550 pc=0x103085558
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing.func1({0x1400000fa90?, 0x102e1bc1c?}, {0x103230290?, 0x140000d0aa0?}, {0x0?, 0x0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:94 +0x50 fp=0x14000647610 sp=0x140006475d0 pc=0x10305e6b0
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip.func1({0x1400000fa90?, 0x102e77a98?}, {0x103230290?, 0x140000d0aa0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:127 +0x11c fp=0x140006476a0 sp=0x14000647610 pc=0x10305ebac
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.IterateUsing(0x14000f02060, {0x10322f850, 0x140006d1740}, 0x140008dba70)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:145 +0x148 fp=0x14000647770 sp=0x140006476a0 pc=0x103062528
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip({0x10322f850, 0x140006d1740}, {0x10322fe40, 0x14000f02060}, {0x0, 0x0}, 0x140003d1260)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x140 fp=0x140006477a0 sp=0x14000647770 pc=0x10305e8d0
+sigs.k8s.io/structured-merge-diff/v6/value.defaultMapZip({0x10322f850?, 0x140006d1740?}, {0x10322fe40?, 0x14000f02060?}, {0x0?, 0x0?}, 0x14000647801?, 0x102e1b50c?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:105 +0x58 fp=0x140006477f0 sp=0x140006477a0 pc=0x10305e738
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.ZipUsing(0x14000647858?, {0x10322f850?, 0x140006d1740?}, {0x0?, 0x0?}, 0x1031fd340?, 0x10322f801?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:185 +0x50 fp=0x14000647840 sp=0x140006477f0 pc=0x103062ab0
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing({0x10322f850, 0x140006d1740}, {0x0, 0x0}, {0x10322fe40, 0x14000f02060}, 0x0, 0x140008dba40)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:93 +0xbc fp=0x14000647890 sp=0x14000647840 pc=0x10305e5dc
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems(0x14000433710, 0x140002af200, {0x0, 0x0}, {0x10322fe40, 0x14000f02060})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:436 +0xdc fp=0x140006478f0 sp=0x14000647890 pc=0x1030854ac
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).doMap(0x14000433710, 0x140002af200)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:467 +0x274 fp=0x140006479f0 sp=0x140006478f0 pc=0x1030858d4
+sigs.k8s.io/structured-merge-diff/v6/typed.handleAtom({0x0?, 0x0?, 0x140002af200?}, {0x140002c25f0, {0x0, 0x0, 0x0}, 0x0}, {0x10322bae8?, 0x14000433710?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/helpers.go:145 +0x14c fp=0x14000647a50 sp=0x140006479f0 pc=0x10308661c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).compare(0x14000433710, 0x14000647cd0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:125 +0x138 fp=0x14000647b90 sp=0x14000647a50 pc=0x103082a08
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItem(0x14000433680, 0x140002af400, 0x14000647d38?, {0x1400000fa30, 0xb}, {0x0, 0x0}, {0x103230290, 0x140000d0a70})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:428 +0x37c fp=0x14000647d00 sp=0x14000647b90 pc=0x10308523c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems.func1({0x1400000fa30?, 0x14000383560?}, {0x0?, 0x0?}, {0x103230290?, 0x140000d0a70?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:437 +0x68 fp=0x14000647d80 sp=0x14000647d00 pc=0x103085558
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing.func1({0x1400000fa30?, 0x102e1bc1c?}, {0x103230290?, 0x140000d0a70?}, {0x0?, 0x0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:94 +0x50 fp=0x14000647dc0 sp=0x14000647d80 pc=0x10305e6b0
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip.func1({0x1400000fa30?, 0x102e77a98?}, {0x103230290?, 0x140000d0a70?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:127 +0x11c fp=0x14000647e50 sp=0x14000647dc0 pc=0x10305ebac
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.IterateUsing(0x1400100a570, {0x10322f850, 0x140006d1740}, 0x14000453860)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:145 +0x148 fp=0x14000647f20 sp=0x14000647e50 pc=0x103062528
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip({0x10322f850, 0x140006d1740}, {0x10322fe40, 0x1400100a570}, {0x0, 0x0}, 0x140003d0850)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x140 fp=0x14000647f50 sp=0x14000647f20 pc=0x10305e8d0
+sigs.k8s.io/structured-merge-diff/v6/value.defaultMapZip({0x10322f850?, 0x140006d1740?}, {0x10322fe40?, 0x1400100a570?}, {0x0?, 0x0?}, 0x14000648001?, 0x102e1b50c?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:105 +0x58 fp=0x14000647fa0 sp=0x14000647f50 pc=0x10305e738
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.ZipUsing(0x14000648008?, {0x10322f850?, 0x140006d1740?}, {0x0?, 0x0?}, 0x1031fd340?, 0x10322f801?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:185 +0x50 fp=0x14000647ff0 sp=0x14000647fa0 pc=0x103062ab0
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing({0x10322f850, 0x140006d1740}, {0x0, 0x0}, {0x10322fe40, 0x1400100a570}, 0x0, 0x14000453830)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:93 +0xbc fp=0x14000648040 sp=0x14000647ff0 pc=0x10305e5dc
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems(0x14000433680, 0x140002af400, {0x0, 0x0}, {0x10322fe40, 0x1400100a570})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:436 +0xdc fp=0x140006480a0 sp=0x14000648040 pc=0x1030854ac
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).doMap(0x14000433680, 0x140002af400)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:467 +0x274 fp=0x140006481a0 sp=0x140006480a0 pc=0x1030858d4
+sigs.k8s.io/structured-merge-diff/v6/typed.handleAtom({0x0?, 0x0?, 0x140002af400?}, {0x0, {0x0, 0x0, 0x140002af400}, 0x0}, {0x10322bae8?, 0x14000433680?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/helpers.go:145 +0x14c fp=0x14000648200 sp=0x140006481a0 pc=0x10308661c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).compare(0x14000433680, 0x14000648480)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:125 +0x138 fp=0x14000648340 sp=0x14000648200 pc=0x103082a08
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItem(0x140004335f0, 0x140002af200, 0x14000648540?, {0x14000acd0c0, 0xa}, {0x0, 0x0}, {0x103230290, 0x140000d09d0})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:428 +0x37c fp=0x140006484b0 sp=0x14000648340 pc=0x10308523c
+...40 frames elided...
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing.func1({0x14000bbf690?, 0x102e1bc1c?}, {0x103230290?, 0x140000d08e0?}, {0x0?, 0x0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:94 +0x50 fp=0x14000649c80 sp=0x14000649c40 pc=0x10305e6b0
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip.func1({0x14000bbf690?, 0x102e77a98?}, {0x103230290?, 0x140000d08e0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:127 +0x11c fp=0x14000649d10 sp=0x14000649c80 pc=0x10305ebac
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.IterateUsing(0x1400100a210, {0x10322f850, 0x140006d1740}, 0x140004532f0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:145 +0x148 fp=0x14000649de0 sp=0x14000649d10 pc=0x103062528
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip({0x10322f850, 0x140006d1740}, {0x10322fe40, 0x1400100a210}, {0x0, 0x0}, 0x140003d0710)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x140 fp=0x14000649e10 sp=0x14000649de0 pc=0x10305e8d0
+sigs.k8s.io/structured-merge-diff/v6/value.defaultMapZip({0x10322f850?, 0x140006d1740?}, {0x10322fe40?, 0x1400100a210?}, {0x0?, 0x0?}, 0x14000649e01?, 0x102e1b50c?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:105 +0x58 fp=0x14000649e60 sp=0x14000649e10 pc=0x10305e738
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.ZipUsing(0x14000649ec8?, {0x10322f850?, 0x140006d1740?}, {0x0?, 0x0?}, 0x1031fd340?, 0x10322f801?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:185 +0x50 fp=0x14000649eb0 sp=0x14000649e60 pc=0x103062ab0
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing({0x10322f850, 0x140006d1740}, {0x0, 0x0}, {0x10322fe40, 0x1400100a210}, 0x0, 0x140004532c0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:93 +0xbc fp=0x14000649f00 sp=0x14000649eb0 pc=0x10305e5dc
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems(0x14000433440, 0x140002af080, {0x0, 0x0}, {0x10322fe40, 0x1400100a210})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:436 +0xdc fp=0x14000649f60 sp=0x14000649f00 pc=0x1030854ac
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).doMap(0x14000433440, 0x140002af080)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:467 +0x274 fp=0x1400064a060 sp=0x14000649f60 pc=0x1030858d4
+sigs.k8s.io/structured-merge-diff/v6/typed.handleAtom({0x0?, 0x0?, 0x140002af080?}, {0x140002be430, {0x0, 0x0, 0x0}, 0x0}, {0x10322bae8?, 0x14000433440?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/helpers.go:145 +0x14c fp=0x1400064a0c0 sp=0x1400064a060 pc=0x10308661c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).compare(0x14000433440, 0x1400064a340)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:125 +0x138 fp=0x1400064a200 sp=0x1400064a0c0 pc=0x103082a08
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItem(0x140004333b0, 0x140002aed80, 0x0?, {0x14000bbf360, 0xa}, {0x0, 0x0}, {0x103230290, 0x140000d0810})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:428 +0x37c fp=0x1400064a370 sp=0x1400064a200 pc=0x10308523c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems.func1({0x14000bbf360?, 0x1030625e8?}, {0x0?, 0x0?}, {0x103230290?, 0x140000d0810?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:437 +0x68 fp=0x1400064a3f0 sp=0x1400064a370 pc=0x103085558
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing.func1({0x14000bbf360?, 0x102e1bc1c?}, {0x103230290?, 0x140000d0810?}, {0x0?, 0x0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:94 +0x50 fp=0x1400064a430 sp=0x1400064a3f0 pc=0x10305e6b0
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip.func1({0x14000bbf360?, 0x102e77a98?}, {0x103230290?, 0x140000d0810?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:127 +0x11c fp=0x1400064a4c0 sp=0x1400064a430 pc=0x10305ebac
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.IterateUsing(0x1400100a150, {0x10322f850, 0x140006d1740}, 0x14000453260)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:145 +0x148 fp=0x1400064a590 sp=0x1400064a4c0 pc=0x103062528
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip({0x10322f850, 0x140006d1740}, {0x10322fe40, 0x1400100a150}, {0x0, 0x0}, 0x140003d06f0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x140 fp=0x1400064a5c0 sp=0x1400064a590 pc=0x10305e8d0
+sigs.k8s.io/structured-merge-diff/v6/value.defaultMapZip({0x10322f850?, 0x140006d1740?}, {0x10322fe40?, 0x1400100a150?}, {0x0?, 0x0?}, 0x1400064a601?, 0x102e1b50c?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:105 +0x58 fp=0x1400064a610 sp=0x1400064a5c0 pc=0x10305e738
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.ZipUsing(0x1400064a678?, {0x10322f850?, 0x140006d1740?}, {0x0?, 0x0?}, 0x1031fd340?, 0x10322f801?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:185 +0x50 fp=0x1400064a660 sp=0x1400064a610 pc=0x103062ab0
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing({0x10322f850, 0x140006d1740}, {0x0, 0x0}, {0x10322fe40, 0x1400100a150}, 0x0, 0x14000453230)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:93 +0xbc fp=0x1400064a6b0 sp=0x1400064a660 pc=0x10305e5dc
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems(0x140004333b0, 0x140002aed80, {0x0, 0x0}, {0x10322fe40, 0x1400100a150})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:436 +0xdc fp=0x1400064a710 sp=0x1400064a6b0 pc=0x1030854ac
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).doMap(0x140004333b0, 0x140002aed80)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:467 +0x274 fp=0x1400064a810 sp=0x1400064a710 pc=0x1030858d4
+sigs.k8s.io/structured-merge-diff/v6/typed.handleAtom({0x0?, 0x0?, 0x140002aed80?}, {0x140002b95b0, {0x0, 0x0, 0x0}, 0x0}, {0x10322bae8?, 0x140004333b0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/helpers.go:145 +0x14c fp=0x1400064a870 sp=0x1400064a810 pc=0x10308661c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).compare(0x140004333b0, 0x1400064aaf0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:125 +0x138 fp=0x1400064a9b0 sp=0x1400064a870 pc=0x103082a08
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItem(0x14000433320, 0x140002aeb80, 0x0?, {0x14000bbe890, 0x4}, {0x0, 0x0}, {0x103230290, 0x140000d07c0})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:428 +0x37c fp=0x1400064ab20 sp=0x1400064a9b0 pc=0x10308523c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems.func1({0x14000bbe890?, 0x0?}, {0x0?, 0x0?}, {0x103230290?, 0x140000d07c0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:437 +0x68 fp=0x1400064aba0 sp=0x1400064ab20 pc=0x103085558
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing.func1({0x14000bbe890?, 0x102e1bc1c?}, {0x103230290?, 0x140000d07c0?}, {0x0?, 0x0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:94 +0x50 fp=0x1400064abe0 sp=0x1400064aba0 pc=0x10305e6b0
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip.func1({0x14000bbe890?, 0x102e77a98?}, {0x103230290?, 0x140000d07c0?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:127 +0x11c fp=0x1400064ac70 sp=0x1400064abe0 pc=0x10305ebac
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.IterateUsing(0x1400100a030, {0x10322f850, 0x140006d1740}, 0x140004530e0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:145 +0x148 fp=0x1400064ad40 sp=0x1400064ac70 pc=0x103062528
+sigs.k8s.io/structured-merge-diff/v6/value.unorderedMapZip({0x10322f850, 0x140006d1740}, {0x10322fe40, 0x1400100a030}, {0x0, 0x0}, 0x140003d0680)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:119 +0x140 fp=0x1400064ad70 sp=0x1400064ad40 pc=0x10305e8d0
+sigs.k8s.io/structured-merge-diff/v6/value.defaultMapZip({0x10322f850?, 0x140006d1740?}, {0x10322fe40?, 0x1400100a030?}, {0x0?, 0x0?}, 0x1400064ae01?, 0x102e1b50c?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:105 +0x58 fp=0x1400064adc0 sp=0x1400064ad70 pc=0x10305e738
+sigs.k8s.io/structured-merge-diff/v6/value.mapUnstructuredString.ZipUsing(0x1400064ae28?, {0x10322f850?, 0x140006d1740?}, {0x0?, 0x0?}, 0x1031fd340?, 0x10322f801?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/mapunstructured.go:185 +0x50 fp=0x1400064ae10 sp=0x1400064adc0 pc=0x103062ab0
+sigs.k8s.io/structured-merge-diff/v6/value.MapZipUsing({0x10322f850, 0x140006d1740}, {0x0, 0x0}, {0x10322fe40, 0x1400100a030}, 0x0, 0x140004530b0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/value/map.go:93 +0xbc fp=0x1400064ae60 sp=0x1400064ae10 pc=0x10305e5dc
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).visitMapItems(0x14000433320, 0x140002aeb80, {0x0, 0x0}, {0x10322fe40, 0x1400100a030})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:436 +0xdc fp=0x1400064aec0 sp=0x1400064ae60 pc=0x1030854ac
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).doMap(0x14000433320, 0x140002aeb80)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:467 +0x274 fp=0x1400064afc0 sp=0x1400064aec0 pc=0x1030858d4
+sigs.k8s.io/structured-merge-diff/v6/typed.handleAtom({0x0?, 0x0?, 0x140002aeb80?}, {0x1400056c080, {0x0, 0x0, 0x0}, 0x0}, {0x10322bae8?, 0x14000433320?})
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/helpers.go:145 +0x14c fp=0x1400064b020 sp=0x1400064afc0 pc=0x10308661c
+sigs.k8s.io/structured-merge-diff/v6/typed.(*compareWalker).compare(0x14000433320, 0x0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/compare.go:125 +0x138 fp=0x1400064b160 sp=0x1400064b020 pc=0x103082a08
+sigs.k8s.io/structured-merge-diff/v6/typed.TypedValue.Compare({{0x103230290, 0x14000721e10}, {0x1400056c080, {0x0, 0x0, 0x0}, 0x0}, 0x1400088a740}, 0x14000b91980)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/typed/typed.go:191 +0x300 fp=0x1400064b270 sp=0x1400064b160 pc=0x10308ff40
+sigs.k8s.io/structured-merge-diff/v6/merge.(*Updater).update(0x14000807f50, 0x14000b91900, 0x14000b91980, {0x103106887, 0x2}, 0x1400100a000, {0x1031082d7, 0xa}, 0x0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/merge/update.go:76 +0x13c fp=0x1400064b900 sp=0x1400064b270 pc=0x103094c2c
+sigs.k8s.io/structured-merge-diff/v6/merge.(*Updater).Apply(0x14000807f50, 0x14000b91900, 0x1400088a0c0, {0x103106887, 0x2}, 0x363b0?, {0x1031082d7, 0xa}, 0x0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/merge/update.go:242 +0x3a0 fp=0x1400064ba60 sp=0x1400064b900 pc=0x103095ff0
+sigs.k8s.io/structured-merge-diff/v6/internal/fixture.(*State).ApplyObject(0x14000807f20, 0x1400088a0c0, {0x103106887, 0x2}, {0x1031082d7, 0xa}, 0x0)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/internal/fixture/state.go:150 +0xc4 fp=0x1400064bac0 sp=0x1400064ba60 pc=0x1030bda04
+sigs.k8s.io/structured-merge-diff/v6/internal/fixture.ApplyObject.run({{0x1031082d7, 0xa}, {0x103106887, 0x2}, 0x1400088a0c0, {0x0, 0x0, 0x0}}, 0x28?)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/internal/fixture/state.go:301 +0x60 fp=0x1400064bbb0 sp=0x1400064bac0 pc=0x1030be8b0
+sigs.k8s.io/structured-merge-diff/v6/internal/fixture.(*ApplyObject).run(0x1400064bcc8?, 0x102e78248?)
+	<autogenerated>:1 +0x74 fp=0x1400064bc50 sp=0x1400064bbb0 pc=0x1030c08b4
+sigs.k8s.io/structured-merge-diff/v6/internal/fixture.TestCase.BenchWithConverter({{0x14000238010, 0x1, 0x1}, {0x0, 0x0}, {0x0, 0x0}, 0x0, 0x0, 0x0, ...}, ...)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/internal/fixture/state.go:590 +0x1d4 fp=0x1400064bd30 sp=0x1400064bc50 pc=0x1030bfc54
+sigs.k8s.io/structured-merge-diff/v6/internal/fixture.TestCase.Bench(...)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/internal/fixture/state.go:557
+sigs.k8s.io/structured-merge-diff/v6/merge_test.BenchmarkOperations.func1.1(0x14000296288)
+	/Users/liggitt/go/src/sigs.k8s.io/structured-merge-diff/merge/real_test.go:209 +0x1e0 fp=0x1400064beb0 sp=0x1400064bd30 pc=0x1030f5930
+testing.(*B).runN(0x14000296288, 0x477)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:202 +0x198 fp=0x1400064bf20 sp=0x1400064beb0 pc=0x102f18478
+testing.(*B).launch(0x14000296288)
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:333 +0x178 fp=0x1400064bfb0 sp=0x1400064bf20 pc=0x102f18fd8
+testing.(*B).doBench.gowrap1()
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:275 +0x28 fp=0x1400064bfd0 sp=0x1400064bfb0 pc=0x102f18e28
+runtime.goexit({})
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/runtime/asm_arm64.s:1223 +0x4 fp=0x1400064bfd0 sp=0x1400064bfd0 pc=0x102e81914
+created by testing.(*B).doBench in goroutine 4980
+	/Users/liggitt/.gimme/versions/go1.24.0.darwin.arm64/src/testing/benchmark.go:275 +0x68
+
+r0      0x104
+r1      0x0
+r2      0x4093900
+r3      0x0
+r4      0x0
+r5      0xa0
+r6      0x0
+r7      0x0
+r8      0x16cffa108
+r9      0x0
+r10     0xc9100
+r11     0xc9100000c9102
+r12     0xc9100000c9102
+r13     0xc9100
+r14     0x0
+r15     0xc9100000c9100
+r16     0x131
+r17     0x20b3b0a78
+r18     0x0
+r19     0x103474dd8
+r20     0x103474e18
+r21     0x20a340d20
+r22     0x0
+r23     0x0
+r24     0x4093900
+r25     0x4093901
+r26     0x4093a00
+r27     0x103466000
+r28     0x103474020
+r29     0x16cffa180
+lr      0x19b4720e0
+sp      0x16cffa0f0
+pc      0x19b4333cc
+fault   0x19b4333cc
+*** Test killed with quit: ran too long (11m0s).
+exit status 2
+FAIL	sigs.k8s.io/structured-merge-diff/v6/merge	660.017s
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/schema	0.370s
+?   	sigs.k8s.io/structured-merge-diff/v6/smd	[no test files]
+goos: darwin
+goarch: arm64
+pkg: sigs.k8s.io/structured-merge-diff/v6/typed
+cpu: Apple M1 Pro
+BenchmarkConvertUnstructured/Pod/From-10    	   59848	     19156 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   62998	     19198 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   62374	     19064 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   63074	     19230 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   62562	     19114 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   62509	     19821 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   58382	     19893 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   61160	     19929 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   53980	     20063 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   59259	     20123 ns/op	    4851 B/op	     151 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   27636	     43338 ns/op	   13789 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28468	     41836 ns/op	   13788 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28021	     43840 ns/op	   13789 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   27676	     42901 ns/op	   13790 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28078	     42882 ns/op	   13790 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28450	     42605 ns/op	   13789 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   27902	     43168 ns/op	   13789 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28144	     42255 ns/op	   13789 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   26976	     43795 ns/op	   13790 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28378	     44648 ns/op	   13791 B/op	     359 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1305	    956559 ns/op	  195547 B/op	    5069 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1284	    917979 ns/op	  195441 B/op	    5067 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1321	    891755 ns/op	  195616 B/op	    5070 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1401	    886156 ns/op	  195432 B/op	    5067 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1311	    919843 ns/op	  195641 B/op	    5071 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1329	    901117 ns/op	  195475 B/op	    5068 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1273	    897664 ns/op	  195214 B/op	    5062 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1314	    883722 ns/op	  195608 B/op	    5070 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1317	    884913 ns/op	  195207 B/op	    5062 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1396	    871572 ns/op	  195342 B/op	    5065 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    3800	    292561 ns/op	   57615 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    4051	    290844 ns/op	   57615 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    4072	    294539 ns/op	   57617 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    4047	    302708 ns/op	   57615 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    3806	    303378 ns/op	   57617 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    3981	    298128 ns/op	   57617 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    3696	    313653 ns/op	   57616 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    3972	    300730 ns/op	   57616 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    4052	    310445 ns/op	   57616 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    3922	    297844 ns/op	   57616 B/op	    1970 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkValidateStructured/struct-10                            	  120284	     10496 ns/op	    2737 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  114747	      9916 ns/op	    2737 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  113107	     10533 ns/op	    2738 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  109305	     10507 ns/op	    2737 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  115651	     10502 ns/op	    2737 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  113576	     10459 ns/op	    2738 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  118719	      9779 ns/op	    2737 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  122848	      9720 ns/op	    2737 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  115251	      9733 ns/op	    2737 B/op	      78 allocs/op
+BenchmarkValidateStructured/struct-10                            	  115887	     10283 ns/op	    2737 B/op	      78 allocs/op
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/typed	68.802s
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+FAIL
+exit status 1
+FAIL	sigs.k8s.io/structured-merge-diff/v6/value	0.256s
+FAIL

@@ -54,17 +54,6 @@ var (
 	peSepBytes      = []byte(peSeparator)
 )
 
-// readJSONIter reads a Value from a JSON iterator.
-// DO NOT EXPORT
-// TODO: eliminate this https://github.com/kubernetes-sigs/structured-merge-diff/issues/202
-func readJSONIter(iter *jsoniter.Iterator) (value.Value, error) {
-	v := iter.Read()
-	if iter.Error != nil && iter.Error != io.EOF {
-		return nil, iter.Error
-	}
-	return value.NewValueInterface(v), nil
-}
-
 // writeJSONStream writes a value into a JSON stream.
 // DO NOT EXPORT
 // TODO: eliminate this https://github.com/kubernetes-sigs/structured-merge-diff/issues/202
@@ -91,9 +80,7 @@ func DeserializePathElement(s string) (PathElement, error) {
 			FieldName: &str,
 		}, nil
 	case peValueSepBytes[0]:
-		iter := readPool.BorrowIterator(b)
-		defer readPool.ReturnIterator(iter)
-		v, err := readJSONIter(iter)
+		v, err := value.FromJSONFast(b)
 		if err != nil {
 			return PathElement{}, err
 		}
@@ -104,11 +91,11 @@ func DeserializePathElement(s string) (PathElement, error) {
 		fields := value.FieldList{}
 
 		iter.ReadObjectCB(func(iter *jsoniter.Iterator, key string) bool {
-			v, err := readJSONIter(iter)
-			if err != nil {
-				iter.Error = err
+			readValue := iter.Read()
+			if iter.Error != nil && iter.Error != io.EOF {
 				return false
 			}
+			v := value.NewValueInterface(readValue)
 			fields = append(fields, value.Field{Name: key, Value: v})
 			return true
 		})
