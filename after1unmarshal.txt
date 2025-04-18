@@ -1,0 +1,260 @@
+goos: darwin
+goarch: arm64
+pkg: sigs.k8s.io/structured-merge-diff/v6/fieldpath
+cpu: Apple M1 Pro
+BenchmarkFieldSet/insert-20-10         	  225889	      5356 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/insert-20-10         	  233312	      5243 ns/op	    4810 B/op	      78 allocs/op
+BenchmarkFieldSet/has-20-10            	 5646300	       212.4 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/has-20-10            	 5660468	       211.3 ns/op	      96 B/op	       2 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  334714	      3633 ns/op	    1588 B/op	       8 allocs/op
+BenchmarkFieldSet/serialize-20-10      	  326308	      3655 ns/op	    1588 B/op	       8 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  111691	     11130 ns/op	   11349 B/op	     242 allocs/op
+BenchmarkFieldSet/deserialize-20-10    	  107594	     11088 ns/op	   11350 B/op	     242 allocs/op
+BenchmarkFieldSet/union-20-10          	  330789	      3613 ns/op	    4261 B/op	      52 allocs/op
+BenchmarkFieldSet/union-20-10          	  331348	      3609 ns/op	    4259 B/op	      52 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  682282	      1719 ns/op	     961 B/op	      29 allocs/op
+BenchmarkFieldSet/intersection-20-10   	  696121	      1724 ns/op	     961 B/op	      29 allocs/op
+BenchmarkFieldSet/difference-20-10     	  436186	      2749 ns/op	    2647 B/op	      42 allocs/op
+BenchmarkFieldSet/difference-20-10     	  431882	      2732 ns/op	    2647 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  430806	      2829 ns/op	    2648 B/op	      42 allocs/op
+BenchmarkFieldSet/recursive-difference-20-10         	  431222	      2802 ns/op	    2648 B/op	      42 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  667080	      1814 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/leaves-20-10                       	  678918	      1805 ns/op	    2437 B/op	      47 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   70390	     17623 ns/op	   16253 B/op	     246 allocs/op
+BenchmarkFieldSet/insert-50-10                       	   70119	     17131 ns/op	   16256 B/op	     246 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4408519	       273.0 ns/op	     159 B/op	       2 allocs/op
+BenchmarkFieldSet/has-50-10                          	 4399767	       273.1 ns/op	     160 B/op	       2 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  120181	     10019 ns/op	    4598 B/op	      14 allocs/op
+BenchmarkFieldSet/serialize-50-10                    	  119728	     10022 ns/op	    4597 B/op	      14 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   44173	     28444 ns/op	   24143 B/op	     689 allocs/op
+BenchmarkFieldSet/deserialize-50-10                  	   41979	     28513 ns/op	   24133 B/op	     689 allocs/op
+BenchmarkFieldSet/union-50-10                        	  120411	      9864 ns/op	   10285 B/op	     134 allocs/op
+BenchmarkFieldSet/union-50-10                        	  121340	      9929 ns/op	   10284 B/op	     134 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  292597	      3992 ns/op	    2049 B/op	      61 allocs/op
+BenchmarkFieldSet/intersection-50-10                 	  306417	      3980 ns/op	    2049 B/op	      61 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  175268	      7204 ns/op	    6458 B/op	     101 allocs/op
+BenchmarkFieldSet/difference-50-10                   	  170827	      7289 ns/op	    6457 B/op	     101 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  148189	      8124 ns/op	    6496 B/op	     102 allocs/op
+BenchmarkFieldSet/recursive-difference-50-10         	  146301	      8017 ns/op	    6493 B/op	     102 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  185276	      6650 ns/op	    6928 B/op	     150 allocs/op
+BenchmarkFieldSet/leaves-50-10                       	  184180	      6657 ns/op	    6928 B/op	     150 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   24470	     49064 ns/op	   60361 B/op	     814 allocs/op
+BenchmarkFieldSet/insert-100-10                      	   24510	     49091 ns/op	   60342 B/op	     813 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2804487	       423.0 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/has-100-10                         	 2857276	       425.8 ns/op	     309 B/op	       3 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   33412	     33632 ns/op	   16034 B/op	      39 allocs/op
+BenchmarkFieldSet/serialize-100-10                   	   35812	     33556 ns/op	   16032 B/op	      39 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   14428	     83550 ns/op	   73005 B/op	    2405 allocs/op
+BenchmarkFieldSet/deserialize-100-10                 	   14235	     82790 ns/op	   73029 B/op	    2406 allocs/op
+BenchmarkFieldSet/union-100-10                       	   62072	     18976 ns/op	   25880 B/op	     257 allocs/op
+BenchmarkFieldSet/union-100-10                       	   61430	     19608 ns/op	   25886 B/op	     257 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  137895	      8454 ns/op	    4022 B/op	     124 allocs/op
+BenchmarkFieldSet/intersection-100-10                	  141211	      8477 ns/op	    4017 B/op	     124 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75544	     15717 ns/op	   15757 B/op	     214 allocs/op
+BenchmarkFieldSet/difference-100-10                  	   75333	     15780 ns/op	   15763 B/op	     214 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72616	     16372 ns/op	   16022 B/op	     216 allocs/op
+BenchmarkFieldSet/recursive-difference-100-10        	   72912	     16114 ns/op	   16014 B/op	     216 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   52917	     23645 ns/op	   27506 B/op	     633 allocs/op
+BenchmarkFieldSet/leaves-100-10                      	   52816	     22538 ns/op	   27512 B/op	     633 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4654	    265908 ns/op	  314433 B/op	    4139 allocs/op
+BenchmarkFieldSet/insert-500-10                      	    4700	    259102 ns/op	  314509 B/op	    4140 allocs/op
+BenchmarkFieldSet/has-500-10                         	 2000128	       608.2 ns/op	     352 B/op	       3 allocs/op
+BenchmarkFieldSet/has-500-10                         	 1947949	       596.6 ns/op	     351 B/op	       3 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7452	    160502 ns/op	   75081 B/op	     184 allocs/op
+BenchmarkFieldSet/serialize-500-10                   	    7797	    159958 ns/op	   75196 B/op	     184 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3028	    392155 ns/op	  338702 B/op	   12002 allocs/op
+BenchmarkFieldSet/deserialize-500-10                 	    3124	    392210 ns/op	  338652 B/op	   12001 allocs/op
+BenchmarkFieldSet/union-500-10                       	   12301	     97424 ns/op	  119608 B/op	    1462 allocs/op
+BenchmarkFieldSet/union-500-10                       	   12180	     97285 ns/op	  119667 B/op	    1463 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   24313	     48220 ns/op	   23920 B/op	     740 allocs/op
+BenchmarkFieldSet/intersection-500-10                	   24679	     48645 ns/op	   23926 B/op	     740 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   15170	     81246 ns/op	   71641 B/op	    1160 allocs/op
+BenchmarkFieldSet/difference-500-10                  	   15001	     81107 ns/op	   71645 B/op	    1159 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   14251	     90022 ns/op	   72962 B/op	    1182 allocs/op
+BenchmarkFieldSet/recursive-difference-500-10        	   13512	     86093 ns/op	   72938 B/op	    1182 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	   10000	    122436 ns/op	  138472 B/op	    3217 allocs/op
+BenchmarkFieldSet/leaves-500-10                      	    9922	    124543 ns/op	  138503 B/op	    3218 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2228	    577347 ns/op	  691470 B/op	    8973 allocs/op
+BenchmarkFieldSet/insert-1000-10                     	    2150	    588401 ns/op	  691988 B/op	    8979 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1647273	       733.7 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/has-1000-10                        	 1524163	       777.5 ns/op	     377 B/op	       3 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3402	    358994 ns/op	  160581 B/op	     394 allocs/op
+BenchmarkFieldSet/serialize-1000-10                  	    3544	    362080 ns/op	  160531 B/op	     394 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1426	    863405 ns/op	  742931 B/op	   26175 allocs/op
+BenchmarkFieldSet/deserialize-1000-10                	    1388	    866042 ns/op	  742477 B/op	   26157 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6412	    196895 ns/op	  235899 B/op	    2854 allocs/op
+BenchmarkFieldSet/union-1000-10                      	    6560	    200676 ns/op	  235868 B/op	    2852 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12109	     97416 ns/op	   43336 B/op	    1333 allocs/op
+BenchmarkFieldSet/intersection-1000-10               	   12051	     99999 ns/op	   43118 B/op	    1328 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7388	    164724 ns/op	  149738 B/op	    2241 allocs/op
+BenchmarkFieldSet/difference-1000-10                 	    7119	    167261 ns/op	  149732 B/op	    2239 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    5595	    178978 ns/op	  152795 B/op	    2286 allocs/op
+BenchmarkFieldSet/recursive-difference-1000-10       	    6814	    178557 ns/op	  152830 B/op	    2285 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4450	    281949 ns/op	  307589 B/op	    7223 allocs/op
+BenchmarkFieldSet/leaves-1000-10                     	    4236	    278842 ns/op	  307446 B/op	    7219 allocs/op
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/fieldpath	135.830s
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/internal/cli	0.517s
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/internal/fixture	0.225s
+goos: darwin
+goarch: arm64
+pkg: sigs.k8s.io/structured-merge-diff/v6/merge
+cpu: Apple M1 Pro
+BenchmarkDeducedSimple-10                             	   32958	     36794 ns/op	   28620 B/op	     673 allocs/op
+BenchmarkDeducedSimple-10                             	   32292	     37293 ns/op	   28617 B/op	     673 allocs/op
+BenchmarkDeducedNested-10                             	   14774	     83117 ns/op	   56951 B/op	    1282 allocs/op
+BenchmarkDeducedNested-10                             	   14989	     80546 ns/op	   56943 B/op	    1282 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    108434 ns/op	   74979 B/op	    1708 allocs/op
+BenchmarkDeducedNestedAcrossVersion-10                	   10000	    108518 ns/op	   74981 B/op	    1708 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23863	     49978 ns/op	   40076 B/op	     877 allocs/op
+BenchmarkLeafConflictAcrossVersion-10                 	   23911	     50394 ns/op	   40073 B/op	     877 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1603	    743725 ns/op	  717960 B/op	    7380 allocs/op
+BenchmarkMultipleApplierRecursiveRealConversion-10    	    1611	    732935 ns/op	  717798 B/op	    7379 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24586	     49350 ns/op	   20197 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Create-10                     	   24289	     48613 ns/op	   20197 B/op	     459 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    9628	    129518 ns/op	   55103 B/op	    1302 allocs/op
+BenchmarkOperations/Pod/Apply-10                      	    8835	    130443 ns/op	   55101 B/op	    1301 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3673	    322733 ns/op	  113874 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwice-10                 	    3662	    323422 ns/op	  113897 B/op	    2768 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3960	    304301 ns/op	  110010 B/op	    2664 allocs/op
+BenchmarkOperations/Pod/ApplyTwiceNoCompare-10        	    3880	    307435 ns/op	  110029 B/op	    2664 allocs/op
+BenchmarkOperations/Pod/Update-10                     	   10000	    118728 ns/op	   37993 B/op	     928 allocs/op
+BenchmarkOperations/Pod/Update-10                     	    9975	    118297 ns/op	   38000 B/op	     928 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    7116	    168899 ns/op	   49803 B/op	    1329 allocs/op
+BenchmarkOperations/Pod/UpdateVersion-10              	    6960	    170182 ns/op	   49803 B/op	    1329 allocs/op
+BenchmarkOperations/Node/Create-10                    	   16114	     74644 ns/op	   29204 B/op	     556 allocs/op
+BenchmarkOperations/Node/Create-10                    	   15854	     75362 ns/op	   29204 B/op	     556 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    5857	    201644 ns/op	   77304 B/op	    1623 allocs/op
+BenchmarkOperations/Node/Apply-10                     	    6058	    205844 ns/op	   77298 B/op	    1623 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2394	    499408 ns/op	  161072 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwice-10                	    2380	    518798 ns/op	  161092 B/op	    3633 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2508	    473314 ns/op	  154753 B/op	    3445 allocs/op
+BenchmarkOperations/Node/ApplyTwiceNoCompare-10       	    2529	    490012 ns/op	  154750 B/op	    3445 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6484	    191034 ns/op	   55567 B/op	    1252 allocs/op
+BenchmarkOperations/Node/Update-10                    	    6326	    184964 ns/op	   55578 B/op	    1252 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4519	    274405 ns/op	   73347 B/op	    1855 allocs/op
+BenchmarkOperations/Node/UpdateVersion-10             	    4450	    270159 ns/op	   73344 B/op	    1855 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  266036	      4524 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Create-10               	  262170	      4670 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  108349	     11120 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/Apply-10                	  111087	     11027 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     966	   1231849 ns/op	  206929 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwice-10           	     967	   1233645 ns/op	  206910 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1892	    624225 ns/op	  108934 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/ApplyTwiceNoCompare-10  	    1881	    623895 ns/op	  108916 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1926	    613270 ns/op	  102006 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/Update-10               	    1888	    628709 ns/op	  102002 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     979	   1208913 ns/op	  199363 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints/UpdateVersion-10        	     978	   1227734 ns/op	  199360 B/op	    4185 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16004	     75162 ns/op	   29202 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Create-10        	   16028	     74579 ns/op	   29202 B/op	     556 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    5964	    199520 ns/op	   77256 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/Apply-10         	    5960	    201831 ns/op	   77266 B/op	    1623 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2382	    500153 ns/op	  161013 B/op	    3632 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwice-10    	    2402	    500898 ns/op	  161031 B/op	    3632 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2551	    471682 ns/op	  154731 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/ApplyTwiceNoCompare-10         	    2589	    473654 ns/op	  154714 B/op	    3445 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6414	    185588 ns/op	   55568 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/Update-10                      	    6399	    186170 ns/op	   55568 B/op	    1252 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4390	    271084 ns/op	   73341 B/op	    1855 allocs/op
+BenchmarkOperations/Node100%override/UpdateVersion-10               	    4369	    271545 ns/op	   73342 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   15903	     75416 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Create-10                       	   15160	     75346 ns/op	   29200 B/op	     556 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    5943	    201155 ns/op	   77277 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/Apply-10                        	    5864	    203278 ns/op	   77268 B/op	    1623 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2391	    505994 ns/op	  161036 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwice-10                   	    2439	    502629 ns/op	  161057 B/op	    3633 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2514	    473508 ns/op	  154751 B/op	    3446 allocs/op
+BenchmarkOperations/Node10%override/ApplyTwiceNoCompare-10          	    2610	    467294 ns/op	  154716 B/op	    3445 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6622	    183940 ns/op	   55566 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/Update-10                       	    6441	    186577 ns/op	   55564 B/op	    1252 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4341	    273895 ns/op	   73340 B/op	    1855 allocs/op
+BenchmarkOperations/Node10%override/UpdateVersion-10                	    4360	    270214 ns/op	   73335 B/op	    1855 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  269811	      4517 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Create-10                 	  260494	      4542 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  108570	     11048 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/Apply-10                  	  108147	     11331 ns/op	    6603 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     961	   1237173 ns/op	  206899 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwice-10             	     958	   1231563 ns/op	  206894 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1879	    631169 ns/op	  108924 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/ApplyTwiceNoCompare-10    	    1868	    631086 ns/op	  108929 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1906	    610848 ns/op	  102007 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/Update-10                 	    1911	    607877 ns/op	  102001 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     982	   1207816 ns/op	  199359 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints100%override/UpdateVersion-10          	     984	   1206585 ns/op	  199361 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  260517	      4470 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Create-10                  	  269292	      4467 ns/op	    3004 B/op	      65 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  110988	     10915 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/Apply-10                   	  111529	     11280 ns/op	    6602 B/op	     152 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     951	   1234028 ns/op	  206887 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwice-10              	     967	   1229158 ns/op	  206912 B/op	    4357 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1882	    663363 ns/op	  108934 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/ApplyTwiceNoCompare-10     	    1875	    637198 ns/op	  108923 B/op	    2302 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1922	    619767 ns/op	  102006 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/Update-10                  	    1921	    623288 ns/op	  102005 B/op	    2141 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     960	   1206928 ns/op	  199356 B/op	    4185 allocs/op
+BenchmarkOperations/Endpoints10%override/UpdateVersion-10           	     956	   1210701 ns/op	  199358 B/op	    4185 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2869	    419529 ns/op	  165141 B/op	    3661 allocs/op
+BenchmarkOperations/PrometheusCRD/Create-10                         	    2838	    416652 ns/op	  165133 B/op	    3660 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1149	   1049663 ns/op	  474310 B/op	   10192 allocs/op
+BenchmarkOperations/PrometheusCRD/Apply-10                          	    1134	   1056108 ns/op	  474309 B/op	   10192 allocs/op
+BenchmarkOperations/PrometheusCRD/ApplyTwice-10                     	     424	   2872235 ns/op	  988342 B/op	   21090 allocs/op
+BenchmarkOperations/PrometheusCRD/ApplyTwice-10                     	     426	   2824391 ns/op	  988236 B/op	   21089 allocs/op
+BenchmarkOperations/PrometheusCRD/ApplyTwiceNoCompare-10            	     488	   2587216 ns/op	  939233 B/op	   19968 allocs/op
+BenchmarkOperations/PrometheusCRD/ApplyTwiceNoCompare-10            	     472	   2540993 ns/op	  939751 B/op	   19972 allocs/op
+BenchmarkOperations/PrometheusCRD/Update-10                         	    1134	   1068469 ns/op	  316950 B/op	    6908 allocs/op
+BenchmarkOperations/PrometheusCRD/Update-10                         	    1105	   1066333 ns/op	  316957 B/op	    6908 allocs/op
+BenchmarkOperations/PrometheusCRD/UpdateVersion-10                  	     738	   1600782 ns/op	  421869 B/op	   10037 allocs/op
+BenchmarkOperations/PrometheusCRD/UpdateVersion-10                  	     745	   1599158 ns/op	  422004 B/op	   10039 allocs/op
+BenchmarkOperations/apiresourceimport/Create-10                     	     603	   1949927 ns/op	  675427 B/op	   15344 allocs/op
+BenchmarkOperations/apiresourceimport/Create-10                     	     597	   2003623 ns/op	  675440 B/op	   15344 allocs/op
+BenchmarkOperations/apiresourceimport/Apply-10                      	     222	   5499899 ns/op	 1936616 B/op	   43000 allocs/op
+BenchmarkOperations/apiresourceimport/Apply-10                      	     225	   5352691 ns/op	 1938172 B/op	   43015 allocs/op
+BenchmarkOperations/apiresourceimport/ApplyTwice-10                 	     100	  10707615 ns/op	 3644444 B/op	   83891 allocs/op
+BenchmarkOperations/apiresourceimport/ApplyTwice-10                 	     100	  10616746 ns/op	 3646100 B/op	   83909 allocs/op
+BenchmarkOperations/apiresourceimport/ApplyTwiceNoCompare-10        	     100	  10098245 ns/op	 3560385 B/op	   81831 allocs/op
+BenchmarkOperations/apiresourceimport/ApplyTwiceNoCompare-10        	     100	  10107530 ns/op	 3560254 B/op	   81830 allocs/op
+BenchmarkOperations/apiresourceimport/Update-10                     	     386	   3067257 ns/op	 1012759 B/op	   26293 allocs/op
+BenchmarkOperations/apiresourceimport/Update-10                     	     387	   3154947 ns/op	 1012764 B/op	   26293 allocs/op
+BenchmarkOperations/apiresourceimport/UpdateVersion-10              	     277	   4298342 ns/op	 1347770 B/op	   37201 allocs/op
+BenchmarkOperations/apiresourceimport/UpdateVersion-10              	     265	   4303997 ns/op	 1347728 B/op	   37200 allocs/op
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/merge	161.369s
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/schema	0.268s
+?   	sigs.k8s.io/structured-merge-diff/v6/smd	[no test files]
+goos: darwin
+goarch: arm64
+pkg: sigs.k8s.io/structured-merge-diff/v6/typed
+cpu: Apple M1 Pro
+BenchmarkConvertUnstructured/Pod/From-10    	   59908	     19251 ns/op	    5035 B/op	     174 allocs/op
+BenchmarkConvertUnstructured/Pod/From-10    	   62052	     20132 ns/op	    5035 B/op	     174 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Pod/To-10      	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28297	     42208 ns/op	   14612 B/op	     462 allocs/op
+BenchmarkConvertUnstructured/Node/From-10   	   28363	     42618 ns/op	   14612 B/op	     462 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000000 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Node/To-10     	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1347	    872204 ns/op	  203540 B/op	    6070 allocs/op
+BenchmarkConvertUnstructured/Endpoints/From-10         	    1370	    867590 ns/op	  203512 B/op	    6070 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/Endpoints/To-10           	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    3990	    294203 ns/op	   58618 B/op	    2095 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/From-10    	    4086	    297590 ns/op	   58618 B/op	    2095 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkConvertUnstructured/CustomResourceDefinition/To-10      	1000000000	         0.0000001 ns/op	       0 B/op	       0 allocs/op
+BenchmarkValidateStructured/struct-10                            	  119636	      9952 ns/op	    2833 B/op	      90 allocs/op
+BenchmarkValidateStructured/struct-10                            	  118074	     10072 ns/op	    2833 B/op	      90 allocs/op
+PASS
+ok  	sigs.k8s.io/structured-merge-diff/v6/typed	14.028s
+--- FAIL: TestTypeReflectEntryOf (0.00s)
+    --- FAIL: TestTypeReflectEntryOf/StructWith*StringFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+    --- FAIL: TestTypeReflectEntryOf/StructWith*CustomFieldOmitzero (0.00s)
+        reflectcache_test.go:272: wanted omitzero=false, got omitzero=true
+FAIL
+exit status 1
+FAIL	sigs.k8s.io/structured-merge-diff/v6/value	0.252s
+FAIL

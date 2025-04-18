@@ -20,10 +20,8 @@ import (
 	"bytes"
 	"fmt"
 	"strings"
-	"sync"
 
 	jsonv2 "github.com/go-json-experiment/json"
-	"github.com/go-json-experiment/json/jsontext"
 	jsoniter "github.com/json-iterator/go"
 
 	yaml "sigs.k8s.io/yaml/goyaml.v2"
@@ -88,19 +86,10 @@ func FromJSON(input []byte) (Value, error) {
 	return FromJSONFast(input)
 }
 
-var decoderPool = sync.Pool{
-	New: func() any {
-		return &jsontext.Decoder{}
-	},
-}
-
 // FromJSONFast is a helper function for reading a JSON document.
 func FromJSONFast(input []byte) (Value, error) {
-	d := decoderPool.Get().(*jsontext.Decoder)
-	defer decoderPool.Put(d)
-	d.Reset(bytes.NewBuffer(input))
 	var v any
-	err := jsonv2.UnmarshalDecode(d, &v)
+	err := jsonv2.Unmarshal(input, &v)
 	if err != nil {
 		return nil, err
 	}
