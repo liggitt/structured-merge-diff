@@ -68,10 +68,9 @@ func valueMarshalJSONTo(enc *jsontext.Encoder, v Value) error {
 		}
 		return enc.WriteToken(jsontext.EndArray)
 	case v.IsMap():
-		// use the json marshaller to make sure the key ordering is deterministic
-		fallthrough
+		return json.MarshalEncode(enc, v.Unstructured())
 	default:
-		return json.MarshalEncode(enc, v.Unstructured(), json.Deterministic(true))
+		return fmt.Errorf("cannot marshal unknown value type to json")
 	}
 }
 
